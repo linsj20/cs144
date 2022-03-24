@@ -2,12 +2,13 @@
 #define SPONGE_LIBSPONGE_TCP_SENDER_HH
 
 #include "byte_stream.hh"
-#include "tcp_config.hh"
-#include "tcp_segment.hh"
+#include "tcp_helpers/tcp_config.hh"
+#include "tcp_helpers/tcp_segment.hh"
 #include "wrapping_integers.hh"
 
 #include <functional>
 #include <queue>
+#include <map>
 
 //! \brief The "sender" part of a TCP implementation.
 
@@ -19,18 +20,25 @@ class TCPSender {
   private:
     //! our initial sequence number, the number for our SYN.
     WrappingInt32 _isn;
-
+    uint32_t _last_ack{0};
+    size_t _retransmission_seq{0};
+    uint32_t _consecutive_retransmissions{0};
+    uint16_t _window{0};
+    bool closed = false;
     //! outbound queue of segments that the TCPSender wants sent
     std::queue<TCPSegment> _segments_out{};
 
     //! retransmission timer for the connection
-    unsigned int _initial_retransmission_timeout;
-
+    unsigned int _initial_retransmission_timeout{0};
+    unsigned int _retransmission_timeout{0};
     //! outgoing stream of bytes that have not yet been sent
     ByteStream _stream;
 
     //! the (absolute) sequence number for the next byte to be sent
     uint64_t _next_seqno{0};
+    size_t _time{0};
+    std::map<size_t , std::pair<size_t, TCPSegment>> _outstanding{};
+
 
   public:
     //! Initialize a TCPSender
@@ -90,3 +98,4 @@ class TCPSender {
 };
 
 #endif  // SPONGE_LIBSPONGE_TCP_SENDER_HH
+

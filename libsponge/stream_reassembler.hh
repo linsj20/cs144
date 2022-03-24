@@ -3,18 +3,22 @@
 
 #include "byte_stream.hh"
 
+#include <iostream>
 #include <cstdint>
 #include <string>
-
+#include <map>
 //! \brief A class that assembles a series of excerpts from a byte stream (possibly out of order,
 //! possibly overlapping) into an in-order byte stream.
 class StreamReassembler {
   private:
     // Your code here -- add private members as necessary.
-
+    std::map<size_t ,std::string> _sstream;
+    std::map<size_t ,bool> _stream;
+    size_t _head;
+    size_t _tail;
     ByteStream _output;  //!< The reassembled in-order byte stream
     size_t _capacity;    //!< The maximum number of bytes
-
+    std::string string_chunk(const std::string &data,size_t o_index,size_t& n_index);
   public:
     //! \brief Construct a `StreamReassembler` that will store up to `capacity` bytes.
     //! \note This capacity limits both the bytes that have been reassembled,
@@ -42,10 +46,13 @@ class StreamReassembler {
     //! \note If the byte at a particular index has been pushed more than once, it
     //! should only be counted once for the purpose of this function.
     size_t unassembled_bytes() const;
-
+    
     //! \brief Is the internal state empty (other than the output stream)?
     //! \returns `true` if no substrings are waiting to be assembled
     bool empty() const;
+
+    size_t head() const {return _head;}
 };
 
 #endif  // SPONGE_LIBSPONGE_STREAM_REASSEMBLER_HH
+

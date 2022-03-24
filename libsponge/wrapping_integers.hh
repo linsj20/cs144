@@ -14,7 +14,7 @@ class WrappingInt32 {
     //! Construct from a raw 32-bit unsigned integer
     explicit WrappingInt32(uint32_t raw_value) : _raw_value(raw_value) {}
 
-    uint32_t raw_value() const { return _raw_value; }  //!< Access raw stored value
+    uint32_t raw_value() const { return _raw_value; }  //!< Access raw s   tored value
 };
 
 //! Transform a 64-bit absolute sequence number (zero-indexed) into a 32-bit relative sequence number
@@ -63,3 +63,4 @@ inline WrappingInt32 operator-(WrappingInt32 a, uint32_t b) { return a + -b; }
 //!@}
 
 #endif  // SPONGE_LIBSPONGE_WRAPPING_INTEGERS_HH
+
