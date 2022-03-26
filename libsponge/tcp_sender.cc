@@ -77,8 +77,9 @@ void TCPSender::fill_window() {
 //! \param window_size The remote receiver's advertised window size
 void TCPSender::ack_received(const WrappingInt32 ackno, const uint16_t window_size) {
   _window = window_size;
-  _last_ack = _last_ack >= ackno.raw_value() ? _last_ack : ackno.raw_value();
   size_t received_seq =  unwrap(ackno, _isn, _next_seqno);
+  _last_ack = unwrap(WrappingInt32(_last_ack), _isn, _next_seqno) >= received_seq ?
+                                                                                  _last_ack : ackno.raw_value();
   auto itr = _outstanding.lower_bound(received_seq);
   if(itr == _outstanding.end() || itr->first != received_seq){fill_window();return;}
   itr++;
@@ -108,13 +109,13 @@ void TCPSender::tick(const size_t ms_since_last_tick) {//might induce confusion
 unsigned int TCPSender::consecutive_retransmissions() const { return _consecutive_retransmissions; }
 
 void TCPSender::send_empty_segment() {
-  uint32_t window_remained = unwrap(WrappingInt32(_last_ack + (_window > 0 ? _window : 1)), _isn, _next_seqno) -
-      _next_seqno;
-  if(window_remained > 0){
+  //uint32_t window_remained = unwrap(WrappingInt32(_last_ack + (_window > 0 ? _window : 1)), _isn, _next_seqno) -
+  //    _next_seqno;
+  //if(window_remained > 0){
     TCPSegment seg;
     seg.header().seqno = wrap(_next_seqno, _isn);
     _segments_out.push(seg);
     _next_seqno++;
-  }
+  //}
 }
 

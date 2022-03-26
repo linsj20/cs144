@@ -45,12 +45,13 @@ void TCPReceiver::segment_received(const TCPSegment &seg) {
         _reassembler.stream_out().end_input();
       }
     }
-
 }
-
+WrappingInt32 TCPReceiver::determined_ack() const {
+    return wrap(_checkpoint + 1, WrappingInt32(_isn));
+}
 std::optional<WrappingInt32> TCPReceiver::ackno() const {
   if(!_syn){return {};}
-  else {return wrap(_checkpoint + 1, WrappingInt32(_isn));}
+  else {return determined_ack();}
 }
 
 size_t TCPReceiver::window_size() const { return _capacity - _reassembler.stream_out().buffer_size(); }

@@ -41,6 +41,7 @@ class TCPReceiver {
     //! of the first byte in the stream that the receiver hasn't received.
     std::optional<WrappingInt32> ackno() const;
 
+    WrappingInt32 determined_ack() const;
     //! \brief The window size that should be sent to the peer
     //!
     //! Operationally: the capacity minus the number of bytes that the
