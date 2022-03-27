@@ -14,7 +14,6 @@ void TCPReceiver::segment_received(const TCPSegment &seg) {
     TCPHeader tcp_h = seg.header();
     if(!_syn) {
       if(tcp_h.syn){
-        printf("%zu\n",seg.length_in_sequence_space());
         _syn = true;
         _fin = false;
         _isn = tcp_h.seqno.raw_value();

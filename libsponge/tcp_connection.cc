@@ -41,7 +41,7 @@ void TCPConnection::segment_received(const TCPSegment &seg) {
         seg0.header().ack = true;
         seg0.header().ackno = _receiver.determined_ack();
         seg0.header().win = _receiver.window_size();
-        segments_out().push(seg);
+        _segments_out.push(seg0);
     }
     if (_receiver.ackno().has_value() and (seg.length_in_sequence_space() == 0)
         and seg.header().seqno == _receiver.ackno().value() - 1) {
@@ -68,10 +68,10 @@ size_t TCPConnection::write(const string &data) {
 //! \param[in] ms_since_last_tick number of milliseconds since the last call to this method
 void TCPConnection::tick(const size_t ms_since_last_tick) {
     _timeout+= ms_since_last_tick;
-    if(_timeout >= _cfg.rt_timeout) {
+    if(_timeout >= 10 * _cfg.rt_timeout) {
         _linger_after_streams_finish = false;
     }
-    _sender.tick(ms_since_last_tick);
+    //_sender.tick(ms_since_last_tick);
     if(_sender.consecutive_retransmissions() > _cfg.MAX_RETX_ATTEMPTS){
         _sender.send_empty_segment();
         segments_out().back().header().rst = true;
@@ -79,20 +79,26 @@ void TCPConnection::tick(const size_t ms_since_last_tick) {
     }
 }
 
-void TCPConnection::end_input_stream() {_sender.stream_in().end_input();}
+void TCPConnection::end_input_stream() {
+    TCPSegment seg;
+    seg.header().fin = true;
+    seg.header().ack = true;
+    seg.header().ackno = _receiver.determined_ack();
+    seg.header().seqno = wrap(_seqno,WrappingInt32(0));
+    _segments_out.push(seg);
+}
 
 void TCPConnection::connect() {     //TBD
-        _sender.send_empty_segment();
-        if(_receiver.ackno()){
-            _sender.segments_out().back().header().ack = true;
-        }
-        _sender.segments_out().back().header().syn = true;
+        TCPSegment seg;
+        seg.header().syn = true;
+        _segments_out.push(seg);
+        _seqno += seg.length_in_sequence_space();
 }
 
 TCPConnection::~TCPConnection() {
     try {
         if (active()) {
-            //cerr << "Warning: Unclean shutdown of TCPConnection\n";
+            cerr << "Warning: Unclean shutdown of TCPConnection\n";
 
             // Your code here: need to send a RST segment to the peer
             _sender.send_empty_segment();
