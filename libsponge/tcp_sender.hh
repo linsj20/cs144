@@ -32,7 +32,7 @@ class TCPSender {
     unsigned int _initial_retransmission_timeout{0};
     unsigned int _retransmission_timeout{0};
     //! outgoing stream of bytes that have not yet been sent
-    ByteStream _stream;
+   ByteStream _stream;
 
     //! the (absolute) sequence number for the next byte to be sent
     uint64_t _next_seqno{0};
@@ -95,6 +95,7 @@ class TCPSender {
     //! \brief relative seqno for the next byte to be sent
     WrappingInt32 next_seqno() const { return wrap(_next_seqno, _isn); }
     //!@}
+    WrappingInt32& isn(){return _isn;}
 };
 
 #endif  // SPONGE_LIBSPONGE_TCP_SENDER_HH

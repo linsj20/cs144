@@ -37,10 +37,10 @@ void TCPReceiver::segment_received(const TCPSegment &seg) {
       }
     }
 
-    if(tcp_h.fin){_fin = true;}
+    if( tcp_h.fin){_fin = true;}
     if(_fin){
       if(_reassembler.empty()){
-        _checkpoint++;
+        _checkpoint = _reassembler.stream_out().eof() ? tcp_h.ackno.raw_value() - 1 : _checkpoint + 1;
         _reassembler.stream_out().end_input();
       }
     }
