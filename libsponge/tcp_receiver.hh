@@ -25,6 +25,7 @@ class TCPReceiver {
     bool _syn = false;
     bool _fin = false;
   public:
+    bool syn(){return _syn;}
     //! \brief Construct a TCP receiver
     //!
     //! \param capacity the maximum number of bytes that the receiver will

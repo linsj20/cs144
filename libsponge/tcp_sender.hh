@@ -25,6 +25,7 @@ class TCPSender {
     uint32_t _consecutive_retransmissions{0};
     uint16_t _window{0};
     bool closed = false;
+    bool _syn = false;
     //! outbound queue of segments that the TCPSender wants sent
     std::queue<TCPSegment> _segments_out{};
 
@@ -96,6 +97,7 @@ class TCPSender {
     WrappingInt32 next_seqno() const { return wrap(_next_seqno, _isn); }
     //!@}
     WrappingInt32& isn(){return _isn;}
+
 };
 
 #endif  // SPONGE_LIBSPONGE_TCP_SENDER_HH

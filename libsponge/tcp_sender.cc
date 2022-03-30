@@ -27,12 +27,6 @@ TCPSender::TCPSender(const size_t capacity, const uint16_t retx_timeout, const s
   _last_ack = _isn.raw_value();
   _time = 0;
   _window = 1;
-  TCPSegment seg;
-  seg.header().syn = true;
-  seg.header().seqno = _isn;
-  _next_seqno = seg.length_in_sequence_space();
-  _outstanding[_next_seqno] = make_pair(_time, seg);
-  _segments_out.push(seg);
 }
 
 uint64_t TCPSender::bytes_in_flight() const {
@@ -46,6 +40,17 @@ uint64_t TCPSender::bytes_in_flight() const {
 }
 
 void TCPSender::fill_window() {
+  if(!_syn){
+      _syn = true;
+      TCPSegment seg;
+      seg.header().syn = true;
+      seg.header().seqno = _isn;
+      _next_seqno = seg.length_in_sequence_space();
+      _outstanding[_next_seqno] = make_pair(_time, seg);
+      _segments_out.push(seg);
+      return;
+  }
+
   uint32_t window_remained = unwrap(WrappingInt32(_last_ack + (_window > 0 ? _window : 1)), _isn, _next_seqno) -
       _next_seqno;
   if(_stream.eof() && !closed && window_remained > _stream.buffer_size()){
@@ -109,13 +114,8 @@ void TCPSender::tick(const size_t ms_since_last_tick) {//might induce confusion
 unsigned int TCPSender::consecutive_retransmissions() const { return _consecutive_retransmissions; }
 
 void TCPSender::send_empty_segment() {
-  //uint32_t window_remained = unwrap(WrappingInt32(_last_ack + (_window > 0 ? _window : 1)), _isn, _next_seqno) -
-  //    _next_seqno;
-  //if(window_remained > 0){
-    TCPSegment seg;
-    seg.header().seqno = wrap(_next_seqno, _isn);
-    _segments_out.push(seg);
-    _next_seqno += seg.length_in_sequence_space();
-  //}
+  TCPSegment seg;
+  seg.header().seqno = wrap(_next_seqno, _isn);
+  _segments_out.push(seg);
 }
 

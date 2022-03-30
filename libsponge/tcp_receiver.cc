@@ -20,7 +20,7 @@ void TCPReceiver::segment_received(const TCPSegment &seg) {
         _reassembler.push_substring(string(seg.payload().str()),
                                     unwrap(tcp_h.seqno ,WrappingInt32(_isn), 0),
                                     tcp_h.fin);
-        _checkpoint = seg.length_in_sequence_space() - 1;
+        _checkpoint = seg.length_in_sequence_space();
         if(tcp_h.fin){
           _fin = true;
         }
@@ -30,23 +30,25 @@ void TCPReceiver::segment_received(const TCPSegment &seg) {
     }
     if(string(seg.payload().str()) != "") {
       _reassembler.push_substring(string(seg.payload().str()),
-                                  unwrap(tcp_h.seqno,WrappingInt32(_isn),_checkpoint)-1,
+                                  unwrap(tcp_h.seqno,WrappingInt32(_isn),_checkpoint) - 1,
                                   tcp_h.fin);
-      if (_checkpoint + 1 == unwrap(tcp_h.seqno, WrappingInt32(_isn), _checkpoint)) {
-        _checkpoint = _reassembler.head();
-      }
+        _checkpoint = 1 + _reassembler.head();
     }
 
-    if( tcp_h.fin){_fin = true;}
+    if( tcp_h.fin){
+        _fin = true;
+    }
     if(_fin){
-      if(_reassembler.empty()){
-        _checkpoint = _reassembler.stream_out().eof() ? tcp_h.ackno.raw_value() - 1 : _checkpoint + 1;
-        _reassembler.stream_out().end_input();
-      }
+        size_t a = unwrap(tcp_h.seqno, WrappingInt32(_isn), _checkpoint) + 1;
+        if(_reassembler.empty()) {
+            _reassembler.stream_out().end_input();
+            _checkpoint = _reassembler.head() + 2 > a ? _reassembler.head() + 2 : a;
+        }
+        else {_checkpoint = _reassembler.head() + 1;}
     }
 }
 WrappingInt32 TCPReceiver::determined_ack() const {
-    return wrap(_checkpoint + 1, WrappingInt32(_isn));
+    return wrap(_checkpoint, WrappingInt32(_isn));
 }
 std::optional<WrappingInt32> TCPReceiver::ackno() const {
   if(!_syn){return {};}

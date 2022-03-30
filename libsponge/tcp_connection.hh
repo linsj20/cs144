@@ -12,10 +12,6 @@ class TCPConnection {
     TCPConfig _cfg;
     TCPReceiver _receiver{_cfg.recv_capacity};
     TCPSender _sender{_cfg.send_capacity, _cfg.rt_timeout, _cfg.fixed_isn};
-    uint64_t _next_seqno{0};
-    size_t _time{0};
-    size_t _retransmission_timeout{_cfg.rt_timeout};
-    std::map<size_t , std::pair<size_t, TCPSegment>> _outstanding{};
     //! outbound queue of segments that the TCPConnection wants sent
     std::queue<TCPSegment> _segments_out{};
 
@@ -23,8 +19,12 @@ class TCPConnection {
     //! for 10 * _cfg.rt_timeout milliseconds after both streams have ended,
     //! in case the remote TCPConnection doesn't know we've received its whole stream?
     bool _linger_after_streams_finish{true};
+    bool _active{true};
     size_t _timeout{0};
   public:
+    void send_sender_segments();
+    void clean_shutdown();
+    void unclean_shutdown();
     //! \name "Input" interface for the writer
     //!@{
 
