@@ -75,16 +75,6 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/zenearx/StudyStuff/IDEs/Clion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-.PHONY : edit_cache/fast
-
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
@@ -94,6 +84,16 @@ test:
 # Special rule for the target test
 test/fast: test
 .PHONY : test/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/home/zenearx/StudyStuff/IDEs/Clion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -281,20 +281,6 @@ fsm_loopback/fast:
 .PHONY : fsm_loopback/fast
 
 # Convenience name for target.
-tests/CMakeFiles/fsm_stream_reassembler_dup.dir/rule:
-	cd /home/zenearx/StudyStuff/cs144/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_stream_reassembler_dup.dir/rule
-.PHONY : tests/CMakeFiles/fsm_stream_reassembler_dup.dir/rule
-
-# Convenience name for target.
-fsm_stream_reassembler_dup: tests/CMakeFiles/fsm_stream_reassembler_dup.dir/rule
-.PHONY : fsm_stream_reassembler_dup
-
-# fast build rule for target.
-fsm_stream_reassembler_dup/fast:
-	cd /home/zenearx/StudyStuff/cs144/cmake-build-debug && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_dup.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_dup.dir/build
-.PHONY : fsm_stream_reassembler_dup/fast
-
-# Convenience name for target.
 tests/CMakeFiles/fsm_active_close.dir/rule:
 	cd /home/zenearx/StudyStuff/cs144/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_active_close.dir/rule
 .PHONY : tests/CMakeFiles/fsm_active_close.dir/rule
@@ -307,6 +293,20 @@ fsm_active_close: tests/CMakeFiles/fsm_active_close.dir/rule
 fsm_active_close/fast:
 	cd /home/zenearx/StudyStuff/cs144/cmake-build-debug && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_active_close.dir/build.make tests/CMakeFiles/fsm_active_close.dir/build
 .PHONY : fsm_active_close/fast
+
+# Convenience name for target.
+tests/CMakeFiles/send_transmit.dir/rule:
+	cd /home/zenearx/StudyStuff/cs144/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/send_transmit.dir/rule
+.PHONY : tests/CMakeFiles/send_transmit.dir/rule
+
+# Convenience name for target.
+send_transmit: tests/CMakeFiles/send_transmit.dir/rule
+.PHONY : send_transmit
+
+# fast build rule for target.
+send_transmit/fast:
+	cd /home/zenearx/StudyStuff/cs144/cmake-build-debug && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_transmit.dir/build.make tests/CMakeFiles/send_transmit.dir/build
+.PHONY : send_transmit/fast
 
 # Convenience name for target.
 tests/CMakeFiles/spongechecks.dir/rule:
@@ -547,6 +547,34 @@ recv_connect/fast:
 .PHONY : recv_connect/fast
 
 # Convenience name for target.
+tests/CMakeFiles/fsm_stream_reassembler_dup.dir/rule:
+	cd /home/zenearx/StudyStuff/cs144/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_stream_reassembler_dup.dir/rule
+.PHONY : tests/CMakeFiles/fsm_stream_reassembler_dup.dir/rule
+
+# Convenience name for target.
+fsm_stream_reassembler_dup: tests/CMakeFiles/fsm_stream_reassembler_dup.dir/rule
+.PHONY : fsm_stream_reassembler_dup
+
+# fast build rule for target.
+fsm_stream_reassembler_dup/fast:
+	cd /home/zenearx/StudyStuff/cs144/cmake-build-debug && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_dup.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_dup.dir/build
+.PHONY : fsm_stream_reassembler_dup/fast
+
+# Convenience name for target.
+tests/CMakeFiles/net_interface.dir/rule:
+	cd /home/zenearx/StudyStuff/cs144/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/net_interface.dir/rule
+.PHONY : tests/CMakeFiles/net_interface.dir/rule
+
+# Convenience name for target.
+net_interface: tests/CMakeFiles/net_interface.dir/rule
+.PHONY : net_interface
+
+# fast build rule for target.
+net_interface/fast:
+	cd /home/zenearx/StudyStuff/cs144/cmake-build-debug && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/net_interface.dir/build.make tests/CMakeFiles/net_interface.dir/build
+.PHONY : net_interface/fast
+
+# Convenience name for target.
 tests/CMakeFiles/byte_stream_one_write.dir/rule:
 	cd /home/zenearx/StudyStuff/cs144/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/byte_stream_one_write.dir/rule
 .PHONY : tests/CMakeFiles/byte_stream_one_write.dir/rule
@@ -573,20 +601,6 @@ byte_stream_two_writes: tests/CMakeFiles/byte_stream_two_writes.dir/rule
 byte_stream_two_writes/fast:
 	cd /home/zenearx/StudyStuff/cs144/cmake-build-debug && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/byte_stream_two_writes.dir/build.make tests/CMakeFiles/byte_stream_two_writes.dir/build
 .PHONY : byte_stream_two_writes/fast
-
-# Convenience name for target.
-tests/CMakeFiles/send_transmit.dir/rule:
-	cd /home/zenearx/StudyStuff/cs144/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/send_transmit.dir/rule
-.PHONY : tests/CMakeFiles/send_transmit.dir/rule
-
-# Convenience name for target.
-send_transmit: tests/CMakeFiles/send_transmit.dir/rule
-.PHONY : send_transmit
-
-# fast build rule for target.
-send_transmit/fast:
-	cd /home/zenearx/StudyStuff/cs144/cmake-build-debug && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_transmit.dir/build.make tests/CMakeFiles/send_transmit.dir/build
-.PHONY : send_transmit/fast
 
 # Convenience name for target.
 tests/CMakeFiles/byte_stream_capacity.dir/rule:
@@ -1404,6 +1418,54 @@ ipv4_parser.cc.s:
 	cd /home/zenearx/StudyStuff/cs144/cmake-build-debug && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ipv4_parser.dir/build.make tests/CMakeFiles/ipv4_parser.dir/ipv4_parser.cc.s
 .PHONY : ipv4_parser.cc.s
 
+net_interface.o: net_interface.cc.o
+.PHONY : net_interface.o
+
+# target to build an object file
+net_interface.cc.o:
+	cd /home/zenearx/StudyStuff/cs144/cmake-build-debug && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/net_interface.dir/build.make tests/CMakeFiles/net_interface.dir/net_interface.cc.o
+.PHONY : net_interface.cc.o
+
+net_interface.i: net_interface.cc.i
+.PHONY : net_interface.i
+
+# target to preprocess a source file
+net_interface.cc.i:
+	cd /home/zenearx/StudyStuff/cs144/cmake-build-debug && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/net_interface.dir/build.make tests/CMakeFiles/net_interface.dir/net_interface.cc.i
+.PHONY : net_interface.cc.i
+
+net_interface.s: net_interface.cc.s
+.PHONY : net_interface.s
+
+# target to generate assembly for a file
+net_interface.cc.s:
+	cd /home/zenearx/StudyStuff/cs144/cmake-build-debug && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/net_interface.dir/build.make tests/CMakeFiles/net_interface.dir/net_interface.cc.s
+.PHONY : net_interface.cc.s
+
+network_interface_test_harness.o: network_interface_test_harness.cc.o
+.PHONY : network_interface_test_harness.o
+
+# target to build an object file
+network_interface_test_harness.cc.o:
+	cd /home/zenearx/StudyStuff/cs144/cmake-build-debug && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/spongechecks.dir/build.make tests/CMakeFiles/spongechecks.dir/network_interface_test_harness.cc.o
+.PHONY : network_interface_test_harness.cc.o
+
+network_interface_test_harness.i: network_interface_test_harness.cc.i
+.PHONY : network_interface_test_harness.i
+
+# target to preprocess a source file
+network_interface_test_harness.cc.i:
+	cd /home/zenearx/StudyStuff/cs144/cmake-build-debug && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/spongechecks.dir/build.make tests/CMakeFiles/spongechecks.dir/network_interface_test_harness.cc.i
+.PHONY : network_interface_test_harness.cc.i
+
+network_interface_test_harness.s: network_interface_test_harness.cc.s
+.PHONY : network_interface_test_harness.s
+
+# target to generate assembly for a file
+network_interface_test_harness.cc.s:
+	cd /home/zenearx/StudyStuff/cs144/cmake-build-debug && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/spongechecks.dir/build.make tests/CMakeFiles/spongechecks.dir/network_interface_test_harness.cc.s
+.PHONY : network_interface_test_harness.cc.s
+
 recv_close.o: recv_close.cc.o
 .PHONY : recv_close.o
 
@@ -1919,6 +1981,7 @@ help:
 	@echo "... fsm_stream_reassembler_win"
 	@echo "... fsm_winsize"
 	@echo "... ipv4_parser"
+	@echo "... net_interface"
 	@echo "... recv_close"
 	@echo "... recv_connect"
 	@echo "... recv_reorder"
@@ -2019,6 +2082,12 @@ help:
 	@echo "... ipv4_parser.o"
 	@echo "... ipv4_parser.i"
 	@echo "... ipv4_parser.s"
+	@echo "... net_interface.o"
+	@echo "... net_interface.i"
+	@echo "... net_interface.s"
+	@echo "... network_interface_test_harness.o"
+	@echo "... network_interface_test_harness.i"
+	@echo "... network_interface_test_harness.s"
 	@echo "... recv_close.o"
 	@echo "... recv_close.i"
 	@echo "... recv_close.s"

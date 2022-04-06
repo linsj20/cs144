@@ -6,6 +6,11 @@
 },
 {
   "directory": "/home/zenearx/StudyStuff/cs144/cmake-build-debug/libsponge",
+  "command": "/usr/bin/c++  -I/home/zenearx/StudyStuff/cs144/libsponge/util -I/home/zenearx/StudyStuff/cs144/libsponge/tcp_helpers -I/home/zenearx/StudyStuff/cs144/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -std=gnu++17 -o CMakeFiles/sponge.dir/network_interface.cc.o -c /home/zenearx/StudyStuff/cs144/libsponge/network_interface.cc",
+  "file": "/home/zenearx/StudyStuff/cs144/libsponge/network_interface.cc"
+},
+{
+  "directory": "/home/zenearx/StudyStuff/cs144/cmake-build-debug/libsponge",
   "command": "/usr/bin/c++  -I/home/zenearx/StudyStuff/cs144/libsponge/util -I/home/zenearx/StudyStuff/cs144/libsponge/tcp_helpers -I/home/zenearx/StudyStuff/cs144/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -std=gnu++17 -o CMakeFiles/sponge.dir/stream_reassembler.cc.o -c /home/zenearx/StudyStuff/cs144/libsponge/stream_reassembler.cc",
   "file": "/home/zenearx/StudyStuff/cs144/libsponge/stream_reassembler.cc"
 },
@@ -13,6 +18,21 @@
   "directory": "/home/zenearx/StudyStuff/cs144/cmake-build-debug/libsponge",
   "command": "/usr/bin/c++  -I/home/zenearx/StudyStuff/cs144/libsponge/util -I/home/zenearx/StudyStuff/cs144/libsponge/tcp_helpers -I/home/zenearx/StudyStuff/cs144/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -std=gnu++17 -o CMakeFiles/sponge.dir/tcp_connection.cc.o -c /home/zenearx/StudyStuff/cs144/libsponge/tcp_connection.cc",
   "file": "/home/zenearx/StudyStuff/cs144/libsponge/tcp_connection.cc"
+},
+{
+  "directory": "/home/zenearx/StudyStuff/cs144/cmake-build-debug/libsponge",
+  "command": "/usr/bin/c++  -I/home/zenearx/StudyStuff/cs144/libsponge/util -I/home/zenearx/StudyStuff/cs144/libsponge/tcp_helpers -I/home/zenearx/StudyStuff/cs144/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -std=gnu++17 -o CMakeFiles/sponge.dir/tcp_helpers/arp_message.cc.o -c /home/zenearx/StudyStuff/cs144/libsponge/tcp_helpers/arp_message.cc",
+  "file": "/home/zenearx/StudyStuff/cs144/libsponge/tcp_helpers/arp_message.cc"
+},
+{
+  "directory": "/home/zenearx/StudyStuff/cs144/cmake-build-debug/libsponge",
+  "command": "/usr/bin/c++  -I/home/zenearx/StudyStuff/cs144/libsponge/util -I/home/zenearx/StudyStuff/cs144/libsponge/tcp_helpers -I/home/zenearx/StudyStuff/cs144/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -std=gnu++17 -o CMakeFiles/sponge.dir/tcp_helpers/ethernet_frame.cc.o -c /home/zenearx/StudyStuff/cs144/libsponge/tcp_helpers/ethernet_frame.cc",
+  "file": "/home/zenearx/StudyStuff/cs144/libsponge/tcp_helpers/ethernet_frame.cc"
+},
+{
+  "directory": "/home/zenearx/StudyStuff/cs144/cmake-build-debug/libsponge",
+  "command": "/usr/bin/c++  -I/home/zenearx/StudyStuff/cs144/libsponge/util -I/home/zenearx/StudyStuff/cs144/libsponge/tcp_helpers -I/home/zenearx/StudyStuff/cs144/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -std=gnu++17 -o CMakeFiles/sponge.dir/tcp_helpers/ethernet_header.cc.o -c /home/zenearx/StudyStuff/cs144/libsponge/tcp_helpers/ethernet_header.cc",
+  "file": "/home/zenearx/StudyStuff/cs144/libsponge/tcp_helpers/ethernet_header.cc"
 },
 {
   "directory": "/home/zenearx/StudyStuff/cs144/cmake-build-debug/libsponge",
@@ -126,6 +146,11 @@
 },
 {
   "directory": "/home/zenearx/StudyStuff/cs144/cmake-build-debug/apps",
+  "command": "/usr/bin/c++  -I/home/zenearx/StudyStuff/cs144/libsponge/util -I/home/zenearx/StudyStuff/cs144/libsponge/tcp_helpers -I/home/zenearx/StudyStuff/cs144/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -std=gnu++17 -o CMakeFiles/tcp_ip_ethernet.dir/tcp_ip_ethernet.cc.o -c /home/zenearx/StudyStuff/cs144/apps/tcp_ip_ethernet.cc",
+  "file": "/home/zenearx/StudyStuff/cs144/apps/tcp_ip_ethernet.cc"
+},
+{
+  "directory": "/home/zenearx/StudyStuff/cs144/cmake-build-debug/apps",
   "command": "/usr/bin/c++  -I/home/zenearx/StudyStuff/cs144/libsponge/util -I/home/zenearx/StudyStuff/cs144/libsponge/tcp_helpers -I/home/zenearx/StudyStuff/cs144/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -std=gnu++17 -o CMakeFiles/tcp_native.dir/tcp_native.cc.o -c /home/zenearx/StudyStuff/cs144/apps/tcp_native.cc",
   "file": "/home/zenearx/StudyStuff/cs144/apps/tcp_native.cc"
 },
@@ -168,6 +193,11 @@
   "directory": "/home/zenearx/StudyStuff/cs144/cmake-build-debug/tests",
   "command": "/usr/bin/c++  -I/home/zenearx/StudyStuff/cs144/libsponge/util -I/home/zenearx/StudyStuff/cs144/libsponge/tcp_helpers -I/home/zenearx/StudyStuff/cs144/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -std=gnu++17 -o CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o -c /home/zenearx/StudyStuff/cs144/tests/byte_stream_test_harness.cc",
   "file": "/home/zenearx/StudyStuff/cs144/tests/byte_stream_test_harness.cc"
+},
+{
+  "directory": "/home/zenearx/StudyStuff/cs144/cmake-build-debug/tests",
+  "command": "/usr/bin/c++  -I/home/zenearx/StudyStuff/cs144/libsponge/util -I/home/zenearx/StudyStuff/cs144/libsponge/tcp_helpers -I/home/zenearx/StudyStuff/cs144/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -std=gnu++17 -o CMakeFiles/spongechecks.dir/network_interface_test_harness.cc.o -c /home/zenearx/StudyStuff/cs144/tests/network_interface_test_harness.cc",
+  "file": "/home/zenearx/StudyStuff/cs144/tests/network_interface_test_harness.cc"
 },
 {
   "directory": "/home/zenearx/StudyStuff/cs144/cmake-build-debug/tests",
@@ -226,13 +256,13 @@
 },
 {
   "directory": "/home/zenearx/StudyStuff/cs144/cmake-build-debug/tests",
-  "command": "/usr/bin/c++  -I/home/zenearx/StudyStuff/cs144/libsponge/util -I/home/zenearx/StudyStuff/cs144/libsponge/tcp_helpers -I/home/zenearx/StudyStuff/cs144/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -std=gnu++17 -o CMakeFiles/fsm_stream_reassembler_dup.dir/fsm_stream_reassembler_dup.cc.o -c /home/zenearx/StudyStuff/cs144/tests/fsm_stream_reassembler_dup.cc",
-  "file": "/home/zenearx/StudyStuff/cs144/tests/fsm_stream_reassembler_dup.cc"
+  "command": "/usr/bin/c++  -I/home/zenearx/StudyStuff/cs144/libsponge/util -I/home/zenearx/StudyStuff/cs144/libsponge/tcp_helpers -I/home/zenearx/StudyStuff/cs144/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -std=gnu++17 -o CMakeFiles/fsm_active_close.dir/fsm_active_close.cc.o -c /home/zenearx/StudyStuff/cs144/tests/fsm_active_close.cc",
+  "file": "/home/zenearx/StudyStuff/cs144/tests/fsm_active_close.cc"
 },
 {
   "directory": "/home/zenearx/StudyStuff/cs144/cmake-build-debug/tests",
-  "command": "/usr/bin/c++  -I/home/zenearx/StudyStuff/cs144/libsponge/util -I/home/zenearx/StudyStuff/cs144/libsponge/tcp_helpers -I/home/zenearx/StudyStuff/cs144/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -std=gnu++17 -o CMakeFiles/fsm_active_close.dir/fsm_active_close.cc.o -c /home/zenearx/StudyStuff/cs144/tests/fsm_active_close.cc",
-  "file": "/home/zenearx/StudyStuff/cs144/tests/fsm_active_close.cc"
+  "command": "/usr/bin/c++  -I/home/zenearx/StudyStuff/cs144/libsponge/util -I/home/zenearx/StudyStuff/cs144/libsponge/tcp_helpers -I/home/zenearx/StudyStuff/cs144/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -std=gnu++17 -o CMakeFiles/send_transmit.dir/send_transmit.cc.o -c /home/zenearx/StudyStuff/cs144/tests/send_transmit.cc",
+  "file": "/home/zenearx/StudyStuff/cs144/tests/send_transmit.cc"
 },
 {
   "directory": "/home/zenearx/StudyStuff/cs144/cmake-build-debug/tests",
@@ -316,6 +346,16 @@
 },
 {
   "directory": "/home/zenearx/StudyStuff/cs144/cmake-build-debug/tests",
+  "command": "/usr/bin/c++  -I/home/zenearx/StudyStuff/cs144/libsponge/util -I/home/zenearx/StudyStuff/cs144/libsponge/tcp_helpers -I/home/zenearx/StudyStuff/cs144/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -std=gnu++17 -o CMakeFiles/fsm_stream_reassembler_dup.dir/fsm_stream_reassembler_dup.cc.o -c /home/zenearx/StudyStuff/cs144/tests/fsm_stream_reassembler_dup.cc",
+  "file": "/home/zenearx/StudyStuff/cs144/tests/fsm_stream_reassembler_dup.cc"
+},
+{
+  "directory": "/home/zenearx/StudyStuff/cs144/cmake-build-debug/tests",
+  "command": "/usr/bin/c++  -I/home/zenearx/StudyStuff/cs144/libsponge/util -I/home/zenearx/StudyStuff/cs144/libsponge/tcp_helpers -I/home/zenearx/StudyStuff/cs144/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -std=gnu++17 -o CMakeFiles/net_interface.dir/net_interface.cc.o -c /home/zenearx/StudyStuff/cs144/tests/net_interface.cc",
+  "file": "/home/zenearx/StudyStuff/cs144/tests/net_interface.cc"
+},
+{
+  "directory": "/home/zenearx/StudyStuff/cs144/cmake-build-debug/tests",
   "command": "/usr/bin/c++  -I/home/zenearx/StudyStuff/cs144/libsponge/util -I/home/zenearx/StudyStuff/cs144/libsponge/tcp_helpers -I/home/zenearx/StudyStuff/cs144/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -std=gnu++17 -o CMakeFiles/byte_stream_one_write.dir/byte_stream_one_write.cc.o -c /home/zenearx/StudyStuff/cs144/tests/byte_stream_one_write.cc",
   "file": "/home/zenearx/StudyStuff/cs144/tests/byte_stream_one_write.cc"
 },
@@ -323,11 +363,6 @@
   "directory": "/home/zenearx/StudyStuff/cs144/cmake-build-debug/tests",
   "command": "/usr/bin/c++  -I/home/zenearx/StudyStuff/cs144/libsponge/util -I/home/zenearx/StudyStuff/cs144/libsponge/tcp_helpers -I/home/zenearx/StudyStuff/cs144/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -std=gnu++17 -o CMakeFiles/byte_stream_two_writes.dir/byte_stream_two_writes.cc.o -c /home/zenearx/StudyStuff/cs144/tests/byte_stream_two_writes.cc",
   "file": "/home/zenearx/StudyStuff/cs144/tests/byte_stream_two_writes.cc"
-},
-{
-  "directory": "/home/zenearx/StudyStuff/cs144/cmake-build-debug/tests",
-  "command": "/usr/bin/c++  -I/home/zenearx/StudyStuff/cs144/libsponge/util -I/home/zenearx/StudyStuff/cs144/libsponge/tcp_helpers -I/home/zenearx/StudyStuff/cs144/libsponge  -std=c++17 -g -pedantic -pedantic-errors -Werror -Wall -Wextra -Wshadow -Wpointer-arith -Wcast-qual -Wformat=2 -Weffc++ -Wold-style-cast -g -ggdb3 -Og -std=gnu++17 -o CMakeFiles/send_transmit.dir/send_transmit.cc.o -c /home/zenearx/StudyStuff/cs144/tests/send_transmit.cc",
-  "file": "/home/zenearx/StudyStuff/cs144/tests/send_transmit.cc"
 },
 {
   "directory": "/home/zenearx/StudyStuff/cs144/cmake-build-debug/tests",

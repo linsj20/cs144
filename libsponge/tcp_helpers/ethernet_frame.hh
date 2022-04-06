@@ -25,6 +25,7 @@ class EthernetFrame {
     const BufferList &payload() const { return _payload; }
     BufferList &payload() { return _payload; }
     //!@}
+
 };
 
 #endif  // SPONGE_LIBSPONGE_ETHERNET_FRAME_HH
