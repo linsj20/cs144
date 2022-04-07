@@ -85,9 +85,9 @@ clean: CMakeFiles/check_lab0.dir/clean
 clean: CMakeFiles/tidy_verbose.dir/clean
 clean: CMakeFiles/tidy_tests__wrapping_integers_unwrap.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_tests__wrapping_integers_unwrap.cc.dir/clean
-clean: CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/clean
-clean: CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/clean
-clean: CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/clean
+clean: CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/clean
+clean: CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/clean
+clean: CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/clean
 clean: CMakeFiles/check_lab3.dir/clean
 clean: CMakeFiles/tidy_util__util.cc.dir/clean
 clean: CMakeFiles/tidy_tests__send_window.cc.dir/clean
@@ -100,8 +100,8 @@ clean: CMakeFiles/check_lab5.dir/clean
 clean: CMakeFiles/tidy_tcp_helpers__tuntap_adapter.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_tcp_helpers__tuntap_adapter.cc.dir/clean
 clean: CMakeFiles/tidy_tcp_helpers__tcp_state.cc.dir/clean
-clean: CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/clean
 clean: CMakeFiles/tidy_apps__webget.cc.dir/clean
+clean: CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_doctests__address_dt.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_tcp_helpers__ipv4_header.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_tcp_helpers__tcp_state.cc.dir/clean
@@ -112,6 +112,7 @@ clean: CMakeFiles/tidy_tcp_helpers__tcp_header.cc.dir/clean
 clean: CMakeFiles/tidy_tcp_helpers__ipv4_datagram.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_tests__recv_connect.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_tcp_helpers__ipv4_datagram.cc.dir/clean
+clean: CMakeFiles/tidy_quiet_libsponge__router.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_tcp_helpers__fd_adapter.cc.dir/clean
 clean: CMakeFiles/tidy_tcp_helpers__fd_adapter.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_libsponge__tcp_receiver.cc.dir/clean
@@ -120,17 +121,18 @@ clean: CMakeFiles/tidy_quiet_tcp_helpers__ethernet_frame.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_tests__fsm_stream_reassembler_cap.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_tests__recv_close.cc.dir/clean
 clean: CMakeFiles/tidy_tcp_helpers__arp_message.cc.dir/clean
-clean: CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_tcp_helpers__arp_message.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_tests__byte_stream_construction.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_tests__fsm_retx_relaxed.cc.dir/clean
 clean: CMakeFiles/tidy_tests__net_interface.cc.dir/clean
 clean: CMakeFiles/tidy_tcp_helpers__ipv4_header.cc.dir/clean
 clean: CMakeFiles/tidy_tests__fsm_stream_reassembler_win.cc.dir/clean
-clean: CMakeFiles/format.dir/clean
 clean: CMakeFiles/tidy_quiet_util__socket.cc.dir/clean
+clean: CMakeFiles/format.dir/clean
 clean: CMakeFiles/tidy_quiet_tests__fsm_connect.cc.dir/clean
 clean: CMakeFiles/tidy_tests__recv_window.cc.dir/clean
+clean: CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/clean
+clean: CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/clean
 clean: CMakeFiles/tidy_tcp_helpers__tcp_over_ip.cc.dir/clean
 clean: CMakeFiles/tidy_tests__send_equivalence_checker.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_tcp_helpers__ethernet_header.cc.dir/clean
@@ -139,21 +141,25 @@ clean: CMakeFiles/tidy_quiet_apps__udp_tcpdump.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_doctests__socket_example_2.cc.dir/clean
 clean: CMakeFiles/tidy_tests__send_connect.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_apps__tcp_native.cc.dir/clean
+clean: CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/clean
+clean: CMakeFiles/tidy_quiet_apps__network_simulator.cc.dir/clean
 clean: CMakeFiles/tidy_tests__recv_transmit.cc.dir/clean
-clean: CMakeFiles/doc.dir/clean
+clean: CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/clean
+clean: CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/clean
+clean: CMakeFiles/tidy_tests__ipv4_parser.cc.dir/clean
+clean: CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_apps__tcp_ipv4.cc.dir/clean
 clean: CMakeFiles/tidy_tests__byte_stream_many_writes.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_tests__fsm_ack_rst.cc.dir/clean
-clean: CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/clean
-clean: CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/clean
+clean: CMakeFiles/doc.dir/clean
+clean: CMakeFiles/tidy_util__file_descriptor.cc.dir/clean
+clean: CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_apps__tcp_ip_ethernet.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_doctests__socket_example_3.cc.dir/clean
 clean: CMakeFiles/tidy_tests__fsm_winsize.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_apps__tun.cc.dir/clean
 clean: CMakeFiles/tidy_apps__tun.cc.dir/clean
 clean: CMakeFiles/tidy_tests__fsm_stream_reassembler_holes.cc.dir/clean
-clean: CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/clean
-clean: CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/clean
 clean: CMakeFiles/tidy_tests__fsm_ack_rst_relaxed.cc.dir/clean
 clean: CMakeFiles/tidy_tcp_helpers__tcp_segment.cc.dir/clean
 clean: CMakeFiles/tidy_tests__fsm_listen.cc.dir/clean
@@ -161,16 +167,9 @@ clean: CMakeFiles/tidy_quiet_tcp_helpers__tcp_over_ip.cc.dir/clean
 clean: CMakeFiles/tidy_apps__tcp_udp.cc.dir/clean
 clean: CMakeFiles/tidy_doctests__address_example_3.cc.dir/clean
 clean: CMakeFiles/tidy_tests__fsm_ack_rst_win_relaxed.cc.dir/clean
+clean: CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/clean
+clean: CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_tests__fsm_winsize.cc.dir/clean
-clean: CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/clean
-clean: CMakeFiles/tidy_util__file_descriptor.cc.dir/clean
-clean: CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/clean
-clean: CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/clean
-clean: CMakeFiles/tidy_tests__ipv4_parser.cc.dir/clean
-clean: CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/clean
-clean: CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/clean
-clean: CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/clean
-clean: CMakeFiles/tidy_util__address.cc.dir/clean
 clean: CMakeFiles/tidy_libsponge__tcp_receiver.cc.dir/clean
 clean: CMakeFiles/tidy_apps__tcp_native.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_libsponge__stream_reassembler.cc.dir/clean
@@ -179,6 +178,7 @@ clean: CMakeFiles/tidy_util__buffer.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_tcp_helpers__tcp_header.cc.dir/clean
 clean: CMakeFiles/tidy_doctests__socket_example_1.cc.dir/clean
 clean: CMakeFiles/tidy_doctests__address_example_2.cc.dir/clean
+clean: CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_apps__tcp_benchmark.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_doctests__socket_dt.cc.dir/clean
 clean: CMakeFiles/tidy_tests__fsm_loopback.cc.dir/clean
@@ -189,6 +189,7 @@ clean: CMakeFiles/tidy_tests__send_ack.cc.dir/clean
 clean: CMakeFiles/tidy_doctests__socket_example_2.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_util__buffer.cc.dir/clean
 clean: CMakeFiles/tidy_doctests__parser_example.cc.dir/clean
+clean: CMakeFiles/tidy_apps__network_simulator.cc.dir/clean
 clean: CMakeFiles/tidy_doctests__socket_dt.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_tests__fsm_stream_reassembler_dup.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_libsponge__network_interface.cc.dir/clean
@@ -197,13 +198,21 @@ clean: CMakeFiles/tidy_quiet_tests__fsm_connect_relaxed.cc.dir/clean
 clean: CMakeFiles/tidy_tests__recv_connect.cc.dir/clean
 clean: CMakeFiles/tidy_util__tun.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_doctests__address_example_3.cc.dir/clean
-clean: CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/clean
 clean: CMakeFiles/check_webget.dir/clean
 clean: CMakeFiles/tidy_tcp_helpers__tcp_sponge_socket.cc.dir/clean
 clean: CMakeFiles/tidy_tests__fsm_connect_relaxed.cc.dir/clean
+clean: CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/clean
+clean: CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/clean
 clean: CMakeFiles/tidy_doctests__parser_dt.cc.dir/clean
 clean: CMakeFiles/tidy_doctests__socket_example_3.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_doctests__parser_dt.cc.dir/clean
+clean: CMakeFiles/tidy_util__address.cc.dir/clean
+clean: CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/clean
+clean: CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/clean
+clean: CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/clean
+clean: CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/clean
+clean: CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/clean
+clean: CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/clean
 clean: CMakeFiles/tidy_tests__byte_stream_construction.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_tests__fsm_ack_rst_win.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_tests__fsm_stream_reassembler_win.cc.dir/clean
@@ -230,6 +239,7 @@ clean: CMakeFiles/check_lab4.dir/clean
 clean: CMakeFiles/tidy_tests__fsm_connect.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_tests__wrapping_integers_wrap.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_util__tun.cc.dir/clean
+clean: CMakeFiles/tidy_libsponge__router.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_tests__fsm_listen.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_tests__fsm_stream_reassembler_overlapping.cc.dir/clean
 clean: CMakeFiles/tidy_doctests__address_dt.cc.dir/clean
@@ -261,8 +271,6 @@ clean: CMakeFiles/tidy_quiet_tests__fsm_stream_reassembler_single.cc.dir/clean
 clean: CMakeFiles/tidy_tests__fsm_stream_reassembler_single.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_tests__ipv4_parser.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_tests__net_interface.cc.dir/clean
-clean: CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/clean
-clean: CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/clean
 clean: CMakeFiles/tidy_tests__recv_close.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_tests__recv_reorder.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_util__file_descriptor.cc.dir/clean
@@ -271,7 +279,6 @@ clean: CMakeFiles/tidy_quiet_tests__recv_special.cc.dir/clean
 clean: CMakeFiles/tidy_libsponge__wrapping_integers.cc.dir/clean
 clean: CMakeFiles/tidy_tests__fsm_stream_reassembler_overlapping.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_tests__recv_transmit.cc.dir/clean
-clean: CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_tests__fsm_listen_relaxed.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_apps__tcp_udp.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_tests__send_ack.cc.dir/clean
@@ -287,9 +294,6 @@ clean: CMakeFiles/tidy_quiet_tests__send_transmit.cc.dir/clean
 clean: CMakeFiles/tidy_tests__send_transmit.cc.dir/clean
 clean: CMakeFiles/tidy_quiet_tests__send_window.cc.dir/clean
 clean: CMakeFiles/tidy_tests__tcp_fsm_test_harness.cc.dir/clean
-clean: CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/clean
-clean: CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/clean
-clean: CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/clean
 clean: libsponge/clean
 clean: apps/clean
 clean: tests/clean
@@ -305,6 +309,7 @@ apps/all: apps/CMakeFiles/tcp_ip_ethernet.dir/all
 apps/all: apps/CMakeFiles/tcp_native.dir/all
 apps/all: apps/CMakeFiles/webget.dir/all
 apps/all: apps/CMakeFiles/udp_tcpdump.dir/all
+apps/all: apps/CMakeFiles/network_simulator.dir/all
 apps/all: apps/CMakeFiles/stream_copy.dir/all
 apps/all: apps/CMakeFiles/tcp_udp.dir/all
 apps/all: apps/CMakeFiles/tcp_ipv4.dir/all
@@ -321,6 +326,7 @@ apps/clean: apps/CMakeFiles/tcp_ip_ethernet.dir/clean
 apps/clean: apps/CMakeFiles/tcp_native.dir/clean
 apps/clean: apps/CMakeFiles/webget.dir/clean
 apps/clean: apps/CMakeFiles/udp_tcpdump.dir/clean
+apps/clean: apps/CMakeFiles/network_simulator.dir/clean
 apps/clean: apps/CMakeFiles/stream_copy.dir/clean
 apps/clean: apps/CMakeFiles/tcp_udp.dir/clean
 apps/clean: apps/CMakeFiles/tcp_ipv4.dir/clean
@@ -499,12 +505,12 @@ CMakeFiles/check.dir/clean:
 CMakeFiles/check_lab6.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/check_lab6.dir/build.make CMakeFiles/check_lab6.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/check_lab6.dir/build.make CMakeFiles/check_lab6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target check_lab6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=12 "Built target check_lab6"
 .PHONY : CMakeFiles/check_lab6.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/check_lab6.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/check_lab6.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/check_lab6.dir/rule
@@ -601,46 +607,45 @@ CMakeFiles/check_lab0.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__wrapping_integers_unwrap.cc.dir/all
-CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/all
-CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/all
+CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_util__util.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__send_window.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_util__parser.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_util__eventloop.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tcp_helpers__tuntap_adapter.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tcp_helpers__tcp_state.cc.dir/all
-CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_apps__webget.cc.dir/all
+CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tcp_helpers__tcp_header.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tcp_helpers__ipv4_datagram.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tcp_helpers__fd_adapter.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tcp_helpers__ethernet_frame.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tcp_helpers__arp_message.cc.dir/all
-CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__net_interface.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tcp_helpers__ipv4_header.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__fsm_stream_reassembler_win.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__recv_window.cc.dir/all
+CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tcp_helpers__tcp_over_ip.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__send_equivalence_checker.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__send_connect.cc.dir/all
+CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__recv_transmit.cc.dir/all
+CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/all
+CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__ipv4_parser.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__byte_stream_many_writes.cc.dir/all
-CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/all
+CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_util__file_descriptor.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__fsm_winsize.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_apps__tun.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__fsm_stream_reassembler_holes.cc.dir/all
-CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__fsm_ack_rst_relaxed.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tcp_helpers__tcp_segment.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__fsm_listen.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_apps__tcp_udp.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_doctests__address_example_3.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__fsm_ack_rst_win_relaxed.cc.dir/all
-CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_util__file_descriptor.cc.dir/all
-CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/all
-CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__ipv4_parser.cc.dir/all
-CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_util__address.cc.dir/all
+CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/all
+CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_libsponge__tcp_receiver.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_apps__tcp_native.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_util__buffer.cc.dir/all
@@ -652,6 +657,7 @@ CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_apps__tcp_ip_ethernet.cc.dir/al
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__send_ack.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_doctests__socket_example_2.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_doctests__parser_example.cc.dir/all
+CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_apps__network_simulator.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_doctests__socket_dt.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__recv_connect.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_util__tun.cc.dir/all
@@ -659,6 +665,10 @@ CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tcp_helpers__tcp_sponge_socket.
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__fsm_connect_relaxed.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_doctests__parser_dt.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_doctests__socket_example_3.cc.dir/all
+CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_util__address.cc.dir/all
+CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/all
+CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/all
+CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__byte_stream_construction.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__fsm_active_close.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__byte_stream_one_write.cc.dir/all
@@ -674,6 +684,7 @@ CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__send_extra.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__network_interface_test_harness.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_doctests__address_example_1.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__fsm_connect.cc.dir/all
+CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_libsponge__router.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_doctests__address_dt.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__fsm_listen_relaxed.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_libsponge__network_interface.cc.dir/all
@@ -697,9 +708,6 @@ CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__send_close.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__send_retx.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__send_transmit.cc.dir/all
 CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__tcp_fsm_test_harness.cc.dir/all
-CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/all
-CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/all
-CMakeFiles/tidy_verbose.dir/all: CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_verbose.dir/build.make CMakeFiles/tidy_verbose.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_verbose.dir/build.make CMakeFiles/tidy_verbose.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_verbose"
@@ -774,82 +782,82 @@ CMakeFiles/tidy_quiet_tests__wrapping_integers_unwrap.cc.dir/clean:
 .PHONY : CMakeFiles/tidy_quiet_tests__wrapping_integers_unwrap.cc.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir
+# Target rules for target CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir
 
 # All Build rule for target.
-CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/build.make CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/build.make CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_tests__byte_stream_capacity.cc"
-.PHONY : CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/all
+CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/build.make CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/build.make CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_quiet_tests__wrapping_integers_roundtrip.cc"
+.PHONY : CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/rule: cmake_check_build_system
+CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/rule
+.PHONY : CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/rule
 
 # Convenience name for target.
-tidy_tests__byte_stream_capacity.cc: CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/rule
-.PHONY : tidy_tests__byte_stream_capacity.cc
+tidy_quiet_tests__wrapping_integers_roundtrip.cc: CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/rule
+.PHONY : tidy_quiet_tests__wrapping_integers_roundtrip.cc
 
 # clean rule for target.
-CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/build.make CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/clean
-.PHONY : CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/clean
+CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/build.make CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/clean
+.PHONY : CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir
+# Target rules for target CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir
 
 # All Build rule for target.
-CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/build.make CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/build.make CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_tests__fsm_stream_reassembler_cap.cc"
-.PHONY : CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/all
+CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/build.make CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/build.make CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_tests__wrapping_integers_cmp.cc"
+.PHONY : CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/rule: cmake_check_build_system
+CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/rule
+.PHONY : CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/rule
 
 # Convenience name for target.
-tidy_tests__fsm_stream_reassembler_cap.cc: CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/rule
-.PHONY : tidy_tests__fsm_stream_reassembler_cap.cc
+tidy_tests__wrapping_integers_cmp.cc: CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/rule
+.PHONY : tidy_tests__wrapping_integers_cmp.cc
 
 # clean rule for target.
-CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/build.make CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/clean
-.PHONY : CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/clean
+CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/build.make CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/clean
+.PHONY : CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir
+# Target rules for target CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir
 
 # All Build rule for target.
-CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/build.make CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/build.make CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_quiet_tests__tcp_fsm_test_harness.cc"
-.PHONY : CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/all
+CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/build.make CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/build.make CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_quiet_tests__wrapping_integers_cmp.cc"
+.PHONY : CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/rule: cmake_check_build_system
+CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/rule
+.PHONY : CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/rule
 
 # Convenience name for target.
-tidy_quiet_tests__tcp_fsm_test_harness.cc: CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/rule
-.PHONY : tidy_quiet_tests__tcp_fsm_test_harness.cc
+tidy_quiet_tests__wrapping_integers_cmp.cc: CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/rule
+.PHONY : tidy_quiet_tests__wrapping_integers_cmp.cc
 
 # clean rule for target.
-CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/build.make CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/clean
-.PHONY : CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/clean
+CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/build.make CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/clean
+.PHONY : CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/check_lab3.dir
@@ -1066,12 +1074,12 @@ CMakeFiles/tidy_quiet_libsponge__tcp_sender.cc.dir/clean:
 CMakeFiles/check_lab5.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/check_lab5.dir/build.make CMakeFiles/check_lab5.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/check_lab5.dir/build.make CMakeFiles/check_lab5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=12 "Built target check_lab5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target check_lab5"
 .PHONY : CMakeFiles/check_lab5.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/check_lab5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/check_lab5.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/check_lab5.dir/rule
@@ -1164,32 +1172,6 @@ CMakeFiles/tidy_tcp_helpers__tcp_state.cc.dir/clean:
 .PHONY : CMakeFiles/tidy_tcp_helpers__tcp_state.cc.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir
-
-# All Build rule for target.
-CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/build.make CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/build.make CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_apps__bidirectional_stream_copy.cc"
-.PHONY : CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/rule
-
-# Convenience name for target.
-tidy_apps__bidirectional_stream_copy.cc: CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/rule
-.PHONY : tidy_apps__bidirectional_stream_copy.cc
-
-# clean rule for target.
-CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/build.make CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/clean
-.PHONY : CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/tidy_apps__webget.cc.dir
 
 # All Build rule for target.
@@ -1214,6 +1196,32 @@ tidy_apps__webget.cc: CMakeFiles/tidy_apps__webget.cc.dir/rule
 CMakeFiles/tidy_apps__webget.cc.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_apps__webget.cc.dir/build.make CMakeFiles/tidy_apps__webget.cc.dir/clean
 .PHONY : CMakeFiles/tidy_apps__webget.cc.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir
+
+# All Build rule for target.
+CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/build.make CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/build.make CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_apps__bidirectional_stream_copy.cc"
+.PHONY : CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/rule
+
+# Convenience name for target.
+tidy_apps__bidirectional_stream_copy.cc: CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/rule
+.PHONY : tidy_apps__bidirectional_stream_copy.cc
+
+# clean rule for target.
+CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/build.make CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/clean
+.PHONY : CMakeFiles/tidy_apps__bidirectional_stream_copy.cc.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/tidy_quiet_doctests__address_dt.cc.dir
@@ -1476,6 +1484,32 @@ CMakeFiles/tidy_quiet_tcp_helpers__ipv4_datagram.cc.dir/clean:
 .PHONY : CMakeFiles/tidy_quiet_tcp_helpers__ipv4_datagram.cc.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/tidy_quiet_libsponge__router.cc.dir
+
+# All Build rule for target.
+CMakeFiles/tidy_quiet_libsponge__router.cc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_libsponge__router.cc.dir/build.make CMakeFiles/tidy_quiet_libsponge__router.cc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_libsponge__router.cc.dir/build.make CMakeFiles/tidy_quiet_libsponge__router.cc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_quiet_libsponge__router.cc"
+.PHONY : CMakeFiles/tidy_quiet_libsponge__router.cc.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tidy_quiet_libsponge__router.cc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_quiet_libsponge__router.cc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tidy_quiet_libsponge__router.cc.dir/rule
+
+# Convenience name for target.
+tidy_quiet_libsponge__router.cc: CMakeFiles/tidy_quiet_libsponge__router.cc.dir/rule
+.PHONY : tidy_quiet_libsponge__router.cc
+
+# clean rule for target.
+CMakeFiles/tidy_quiet_libsponge__router.cc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_libsponge__router.cc.dir/build.make CMakeFiles/tidy_quiet_libsponge__router.cc.dir/clean
+.PHONY : CMakeFiles/tidy_quiet_libsponge__router.cc.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/tidy_quiet_tcp_helpers__fd_adapter.cc.dir
 
 # All Build rule for target.
@@ -1684,32 +1718,6 @@ CMakeFiles/tidy_tcp_helpers__arp_message.cc.dir/clean:
 .PHONY : CMakeFiles/tidy_tcp_helpers__arp_message.cc.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir
-
-# All Build rule for target.
-CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/build.make CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/build.make CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_tests__byte_stream_test_harness.cc"
-.PHONY : CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/rule
-
-# Convenience name for target.
-tidy_tests__byte_stream_test_harness.cc: CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/rule
-.PHONY : tidy_tests__byte_stream_test_harness.cc
-
-# clean rule for target.
-CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/build.make CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/clean
-.PHONY : CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/tidy_quiet_tcp_helpers__arp_message.cc.dir
 
 # All Build rule for target.
@@ -1866,32 +1874,6 @@ CMakeFiles/tidy_tests__fsm_stream_reassembler_win.cc.dir/clean:
 .PHONY : CMakeFiles/tidy_tests__fsm_stream_reassembler_win.cc.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/format.dir
-
-# All Build rule for target.
-CMakeFiles/format.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/format.dir/build.make CMakeFiles/format.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/format.dir/build.make CMakeFiles/format.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target format"
-.PHONY : CMakeFiles/format.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/format.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/format.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/format.dir/rule
-
-# Convenience name for target.
-format: CMakeFiles/format.dir/rule
-.PHONY : format
-
-# clean rule for target.
-CMakeFiles/format.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/format.dir/build.make CMakeFiles/format.dir/clean
-.PHONY : CMakeFiles/format.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/tidy_quiet_util__socket.cc.dir
 
 # All Build rule for target.
@@ -1916,6 +1898,32 @@ tidy_quiet_util__socket.cc: CMakeFiles/tidy_quiet_util__socket.cc.dir/rule
 CMakeFiles/tidy_quiet_util__socket.cc.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_util__socket.cc.dir/build.make CMakeFiles/tidy_quiet_util__socket.cc.dir/clean
 .PHONY : CMakeFiles/tidy_quiet_util__socket.cc.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/format.dir
+
+# All Build rule for target.
+CMakeFiles/format.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/format.dir/build.make CMakeFiles/format.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/format.dir/build.make CMakeFiles/format.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target format"
+.PHONY : CMakeFiles/format.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/format.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/format.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/format.dir/rule
+
+# Convenience name for target.
+format: CMakeFiles/format.dir/rule
+.PHONY : format
+
+# clean rule for target.
+CMakeFiles/format.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/format.dir/build.make CMakeFiles/format.dir/clean
+.PHONY : CMakeFiles/format.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/tidy_quiet_tests__fsm_connect.cc.dir
@@ -1968,6 +1976,58 @@ tidy_tests__recv_window.cc: CMakeFiles/tidy_tests__recv_window.cc.dir/rule
 CMakeFiles/tidy_tests__recv_window.cc.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__recv_window.cc.dir/build.make CMakeFiles/tidy_tests__recv_window.cc.dir/clean
 .PHONY : CMakeFiles/tidy_tests__recv_window.cc.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir
+
+# All Build rule for target.
+CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/build.make CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/build.make CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_libsponge__stream_reassembler.cc"
+.PHONY : CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/rule
+
+# Convenience name for target.
+tidy_libsponge__stream_reassembler.cc: CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/rule
+.PHONY : tidy_libsponge__stream_reassembler.cc
+
+# clean rule for target.
+CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/build.make CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/clean
+.PHONY : CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir
+
+# All Build rule for target.
+CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/build.make CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/build.make CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_quiet_tests__send_equivalence_checker.cc"
+.PHONY : CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/rule
+
+# Convenience name for target.
+tidy_quiet_tests__send_equivalence_checker.cc: CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/rule
+.PHONY : tidy_quiet_tests__send_equivalence_checker.cc
+
+# clean rule for target.
+CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/build.make CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/clean
+.PHONY : CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/tidy_tcp_helpers__tcp_over_ip.cc.dir
@@ -2178,6 +2238,58 @@ CMakeFiles/tidy_quiet_apps__tcp_native.cc.dir/clean:
 .PHONY : CMakeFiles/tidy_quiet_apps__tcp_native.cc.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir
+
+# All Build rule for target.
+CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/build.make CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/build.make CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_tests__byte_stream_test_harness.cc"
+.PHONY : CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/rule
+
+# Convenience name for target.
+tidy_tests__byte_stream_test_harness.cc: CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/rule
+.PHONY : tidy_tests__byte_stream_test_harness.cc
+
+# clean rule for target.
+CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/build.make CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/clean
+.PHONY : CMakeFiles/tidy_tests__byte_stream_test_harness.cc.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tidy_quiet_apps__network_simulator.cc.dir
+
+# All Build rule for target.
+CMakeFiles/tidy_quiet_apps__network_simulator.cc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_apps__network_simulator.cc.dir/build.make CMakeFiles/tidy_quiet_apps__network_simulator.cc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_apps__network_simulator.cc.dir/build.make CMakeFiles/tidy_quiet_apps__network_simulator.cc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_quiet_apps__network_simulator.cc"
+.PHONY : CMakeFiles/tidy_quiet_apps__network_simulator.cc.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tidy_quiet_apps__network_simulator.cc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_quiet_apps__network_simulator.cc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tidy_quiet_apps__network_simulator.cc.dir/rule
+
+# Convenience name for target.
+tidy_quiet_apps__network_simulator.cc: CMakeFiles/tidy_quiet_apps__network_simulator.cc.dir/rule
+.PHONY : tidy_quiet_apps__network_simulator.cc
+
+# clean rule for target.
+CMakeFiles/tidy_quiet_apps__network_simulator.cc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_apps__network_simulator.cc.dir/build.make CMakeFiles/tidy_quiet_apps__network_simulator.cc.dir/clean
+.PHONY : CMakeFiles/tidy_quiet_apps__network_simulator.cc.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/tidy_tests__recv_transmit.cc.dir
 
 # All Build rule for target.
@@ -2204,30 +2316,108 @@ CMakeFiles/tidy_tests__recv_transmit.cc.dir/clean:
 .PHONY : CMakeFiles/tidy_tests__recv_transmit.cc.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/doc.dir
+# Target rules for target CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir
 
 # All Build rule for target.
-CMakeFiles/doc.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/doc.dir/build.make CMakeFiles/doc.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/doc.dir/build.make CMakeFiles/doc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=14 "Built target doc"
-.PHONY : CMakeFiles/doc.dir/all
+CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/build.make CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/build.make CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_quiet_tcp_helpers__tcp_segment.cc"
+.PHONY : CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/doc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/doc.dir/all
+CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/doc.dir/rule
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/rule
 
 # Convenience name for target.
-doc: CMakeFiles/doc.dir/rule
-.PHONY : doc
+tidy_quiet_tcp_helpers__tcp_segment.cc: CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/rule
+.PHONY : tidy_quiet_tcp_helpers__tcp_segment.cc
 
 # clean rule for target.
-CMakeFiles/doc.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/doc.dir/build.make CMakeFiles/doc.dir/clean
-.PHONY : CMakeFiles/doc.dir/clean
+CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/build.make CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/clean
+.PHONY : CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tidy_apps__tcp_ipv4.cc.dir
+
+# All Build rule for target.
+CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/build.make CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/build.make CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_apps__tcp_ipv4.cc"
+.PHONY : CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/rule
+
+# Convenience name for target.
+tidy_apps__tcp_ipv4.cc: CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/rule
+.PHONY : tidy_apps__tcp_ipv4.cc
+
+# clean rule for target.
+CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/build.make CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/clean
+.PHONY : CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tidy_tests__ipv4_parser.cc.dir
+
+# All Build rule for target.
+CMakeFiles/tidy_tests__ipv4_parser.cc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__ipv4_parser.cc.dir/build.make CMakeFiles/tidy_tests__ipv4_parser.cc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__ipv4_parser.cc.dir/build.make CMakeFiles/tidy_tests__ipv4_parser.cc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_tests__ipv4_parser.cc"
+.PHONY : CMakeFiles/tidy_tests__ipv4_parser.cc.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tidy_tests__ipv4_parser.cc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_tests__ipv4_parser.cc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tidy_tests__ipv4_parser.cc.dir/rule
+
+# Convenience name for target.
+tidy_tests__ipv4_parser.cc: CMakeFiles/tidy_tests__ipv4_parser.cc.dir/rule
+.PHONY : tidy_tests__ipv4_parser.cc
+
+# clean rule for target.
+CMakeFiles/tidy_tests__ipv4_parser.cc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__ipv4_parser.cc.dir/build.make CMakeFiles/tidy_tests__ipv4_parser.cc.dir/clean
+.PHONY : CMakeFiles/tidy_tests__ipv4_parser.cc.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir
+
+# All Build rule for target.
+CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/build.make CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/build.make CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_quiet_libsponge__byte_stream.cc"
+.PHONY : CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/rule
+
+# Convenience name for target.
+tidy_quiet_libsponge__byte_stream.cc: CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/rule
+.PHONY : tidy_quiet_libsponge__byte_stream.cc
+
+# clean rule for target.
+CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/build.make CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/clean
+.PHONY : CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/tidy_quiet_apps__tcp_ipv4.cc.dir
@@ -2308,56 +2498,82 @@ CMakeFiles/tidy_quiet_tests__fsm_ack_rst.cc.dir/clean:
 .PHONY : CMakeFiles/tidy_quiet_tests__fsm_ack_rst.cc.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir
+# Target rules for target CMakeFiles/doc.dir
 
 # All Build rule for target.
-CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/build.make CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/build.make CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_libsponge__stream_reassembler.cc"
-.PHONY : CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/all
+CMakeFiles/doc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/doc.dir/build.make CMakeFiles/doc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/doc.dir/build.make CMakeFiles/doc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target doc"
+.PHONY : CMakeFiles/doc.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/rule: cmake_check_build_system
+CMakeFiles/doc.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/doc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/rule
+.PHONY : CMakeFiles/doc.dir/rule
 
 # Convenience name for target.
-tidy_libsponge__stream_reassembler.cc: CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/rule
-.PHONY : tidy_libsponge__stream_reassembler.cc
+doc: CMakeFiles/doc.dir/rule
+.PHONY : doc
 
 # clean rule for target.
-CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/build.make CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/clean
-.PHONY : CMakeFiles/tidy_libsponge__stream_reassembler.cc.dir/clean
+CMakeFiles/doc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/doc.dir/build.make CMakeFiles/doc.dir/clean
+.PHONY : CMakeFiles/doc.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir
+# Target rules for target CMakeFiles/tidy_util__file_descriptor.cc.dir
 
 # All Build rule for target.
-CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/build.make CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/build.make CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_quiet_tests__send_equivalence_checker.cc"
-.PHONY : CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/all
+CMakeFiles/tidy_util__file_descriptor.cc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_util__file_descriptor.cc.dir/build.make CMakeFiles/tidy_util__file_descriptor.cc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_util__file_descriptor.cc.dir/build.make CMakeFiles/tidy_util__file_descriptor.cc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_util__file_descriptor.cc"
+.PHONY : CMakeFiles/tidy_util__file_descriptor.cc.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/rule: cmake_check_build_system
+CMakeFiles/tidy_util__file_descriptor.cc.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_util__file_descriptor.cc.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/rule
+.PHONY : CMakeFiles/tidy_util__file_descriptor.cc.dir/rule
 
 # Convenience name for target.
-tidy_quiet_tests__send_equivalence_checker.cc: CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/rule
-.PHONY : tidy_quiet_tests__send_equivalence_checker.cc
+tidy_util__file_descriptor.cc: CMakeFiles/tidy_util__file_descriptor.cc.dir/rule
+.PHONY : tidy_util__file_descriptor.cc
 
 # clean rule for target.
-CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/build.make CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/clean
-.PHONY : CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/clean
+CMakeFiles/tidy_util__file_descriptor.cc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_util__file_descriptor.cc.dir/build.make CMakeFiles/tidy_util__file_descriptor.cc.dir/clean
+.PHONY : CMakeFiles/tidy_util__file_descriptor.cc.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir
+
+# All Build rule for target.
+CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/build.make CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/build.make CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_quiet_apps__bidirectional_stream_copy.cc"
+.PHONY : CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/rule
+
+# Convenience name for target.
+tidy_quiet_apps__bidirectional_stream_copy.cc: CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/rule
+.PHONY : tidy_quiet_apps__bidirectional_stream_copy.cc
+
+# clean rule for target.
+CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/build.make CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/clean
+.PHONY : CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/tidy_quiet_apps__tcp_ip_ethernet.cc.dir
@@ -2514,58 +2730,6 @@ tidy_tests__fsm_stream_reassembler_holes.cc: CMakeFiles/tidy_tests__fsm_stream_r
 CMakeFiles/tidy_tests__fsm_stream_reassembler_holes.cc.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__fsm_stream_reassembler_holes.cc.dir/build.make CMakeFiles/tidy_tests__fsm_stream_reassembler_holes.cc.dir/clean
 .PHONY : CMakeFiles/tidy_tests__fsm_stream_reassembler_holes.cc.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir
-
-# All Build rule for target.
-CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/build.make CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/build.make CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_quiet_tests__byte_stream_capacity.cc"
-.PHONY : CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/rule
-
-# Convenience name for target.
-tidy_quiet_tests__byte_stream_capacity.cc: CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/rule
-.PHONY : tidy_quiet_tests__byte_stream_capacity.cc
-
-# clean rule for target.
-CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/build.make CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/clean
-.PHONY : CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/tidy_apps__tcp_benchmark.cc.dir
-
-# All Build rule for target.
-CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/build.make CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/build.make CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_apps__tcp_benchmark.cc"
-.PHONY : CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/rule
-
-# Convenience name for target.
-tidy_apps__tcp_benchmark.cc: CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/rule
-.PHONY : tidy_apps__tcp_benchmark.cc
-
-# clean rule for target.
-CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/build.make CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/clean
-.PHONY : CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/tidy_tests__fsm_ack_rst_relaxed.cc.dir
@@ -2750,6 +2914,58 @@ CMakeFiles/tidy_tests__fsm_ack_rst_win_relaxed.cc.dir/clean:
 .PHONY : CMakeFiles/tidy_tests__fsm_ack_rst_win_relaxed.cc.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir
+
+# All Build rule for target.
+CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/build.make CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/build.make CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_tests__wrapping_integers_roundtrip.cc"
+.PHONY : CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/rule
+
+# Convenience name for target.
+tidy_tests__wrapping_integers_roundtrip.cc: CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/rule
+.PHONY : tidy_tests__wrapping_integers_roundtrip.cc
+
+# clean rule for target.
+CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/build.make CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/clean
+.PHONY : CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tidy_libsponge__tcp_sender.cc.dir
+
+# All Build rule for target.
+CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/build.make CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/build.make CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_libsponge__tcp_sender.cc"
+.PHONY : CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/rule
+
+# Convenience name for target.
+tidy_libsponge__tcp_sender.cc: CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/rule
+.PHONY : tidy_libsponge__tcp_sender.cc
+
+# clean rule for target.
+CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/build.make CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/clean
+.PHONY : CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/tidy_quiet_tests__fsm_winsize.cc.dir
 
 # All Build rule for target.
@@ -2774,240 +2990,6 @@ tidy_quiet_tests__fsm_winsize.cc: CMakeFiles/tidy_quiet_tests__fsm_winsize.cc.di
 CMakeFiles/tidy_quiet_tests__fsm_winsize.cc.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__fsm_winsize.cc.dir/build.make CMakeFiles/tidy_quiet_tests__fsm_winsize.cc.dir/clean
 .PHONY : CMakeFiles/tidy_quiet_tests__fsm_winsize.cc.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir
-
-# All Build rule for target.
-CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/build.make CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/build.make CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_quiet_apps__bidirectional_stream_copy.cc"
-.PHONY : CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/rule
-
-# Convenience name for target.
-tidy_quiet_apps__bidirectional_stream_copy.cc: CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/rule
-.PHONY : tidy_quiet_apps__bidirectional_stream_copy.cc
-
-# clean rule for target.
-CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/build.make CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/clean
-.PHONY : CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/tidy_util__file_descriptor.cc.dir
-
-# All Build rule for target.
-CMakeFiles/tidy_util__file_descriptor.cc.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_util__file_descriptor.cc.dir/build.make CMakeFiles/tidy_util__file_descriptor.cc.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_util__file_descriptor.cc.dir/build.make CMakeFiles/tidy_util__file_descriptor.cc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_util__file_descriptor.cc"
-.PHONY : CMakeFiles/tidy_util__file_descriptor.cc.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/tidy_util__file_descriptor.cc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_util__file_descriptor.cc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/tidy_util__file_descriptor.cc.dir/rule
-
-# Convenience name for target.
-tidy_util__file_descriptor.cc: CMakeFiles/tidy_util__file_descriptor.cc.dir/rule
-.PHONY : tidy_util__file_descriptor.cc
-
-# clean rule for target.
-CMakeFiles/tidy_util__file_descriptor.cc.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_util__file_descriptor.cc.dir/build.make CMakeFiles/tidy_util__file_descriptor.cc.dir/clean
-.PHONY : CMakeFiles/tidy_util__file_descriptor.cc.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir
-
-# All Build rule for target.
-CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/build.make CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/build.make CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_quiet_tcp_helpers__tcp_segment.cc"
-.PHONY : CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/rule
-
-# Convenience name for target.
-tidy_quiet_tcp_helpers__tcp_segment.cc: CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/rule
-.PHONY : tidy_quiet_tcp_helpers__tcp_segment.cc
-
-# clean rule for target.
-CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/build.make CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/clean
-.PHONY : CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/tidy_apps__tcp_ipv4.cc.dir
-
-# All Build rule for target.
-CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/build.make CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/build.make CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_apps__tcp_ipv4.cc"
-.PHONY : CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/rule
-
-# Convenience name for target.
-tidy_apps__tcp_ipv4.cc: CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/rule
-.PHONY : tidy_apps__tcp_ipv4.cc
-
-# clean rule for target.
-CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/build.make CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/clean
-.PHONY : CMakeFiles/tidy_apps__tcp_ipv4.cc.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/tidy_tests__ipv4_parser.cc.dir
-
-# All Build rule for target.
-CMakeFiles/tidy_tests__ipv4_parser.cc.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__ipv4_parser.cc.dir/build.make CMakeFiles/tidy_tests__ipv4_parser.cc.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__ipv4_parser.cc.dir/build.make CMakeFiles/tidy_tests__ipv4_parser.cc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_tests__ipv4_parser.cc"
-.PHONY : CMakeFiles/tidy_tests__ipv4_parser.cc.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/tidy_tests__ipv4_parser.cc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_tests__ipv4_parser.cc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/tidy_tests__ipv4_parser.cc.dir/rule
-
-# Convenience name for target.
-tidy_tests__ipv4_parser.cc: CMakeFiles/tidy_tests__ipv4_parser.cc.dir/rule
-.PHONY : tidy_tests__ipv4_parser.cc
-
-# clean rule for target.
-CMakeFiles/tidy_tests__ipv4_parser.cc.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__ipv4_parser.cc.dir/build.make CMakeFiles/tidy_tests__ipv4_parser.cc.dir/clean
-.PHONY : CMakeFiles/tidy_tests__ipv4_parser.cc.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir
-
-# All Build rule for target.
-CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/build.make CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/build.make CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_quiet_libsponge__byte_stream.cc"
-.PHONY : CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/rule
-
-# Convenience name for target.
-tidy_quiet_libsponge__byte_stream.cc: CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/rule
-.PHONY : tidy_quiet_libsponge__byte_stream.cc
-
-# clean rule for target.
-CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/build.make CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/clean
-.PHONY : CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir
-
-# All Build rule for target.
-CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/build.make CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/build.make CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_quiet_doctests__address_example_2.cc"
-.PHONY : CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/rule
-
-# Convenience name for target.
-tidy_quiet_doctests__address_example_2.cc: CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/rule
-.PHONY : tidy_quiet_doctests__address_example_2.cc
-
-# clean rule for target.
-CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/build.make CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/clean
-.PHONY : CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir
-
-# All Build rule for target.
-CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/build.make CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/build.make CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_quiet_libsponge__wrapping_integers.cc"
-.PHONY : CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/rule
-
-# Convenience name for target.
-tidy_quiet_libsponge__wrapping_integers.cc: CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/rule
-.PHONY : tidy_quiet_libsponge__wrapping_integers.cc
-
-# clean rule for target.
-CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/build.make CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/clean
-.PHONY : CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/tidy_util__address.cc.dir
-
-# All Build rule for target.
-CMakeFiles/tidy_util__address.cc.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_util__address.cc.dir/build.make CMakeFiles/tidy_util__address.cc.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_util__address.cc.dir/build.make CMakeFiles/tidy_util__address.cc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_util__address.cc"
-.PHONY : CMakeFiles/tidy_util__address.cc.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/tidy_util__address.cc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_util__address.cc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/tidy_util__address.cc.dir/rule
-
-# Convenience name for target.
-tidy_util__address.cc: CMakeFiles/tidy_util__address.cc.dir/rule
-.PHONY : tidy_util__address.cc
-
-# clean rule for target.
-CMakeFiles/tidy_util__address.cc.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_util__address.cc.dir/build.make CMakeFiles/tidy_util__address.cc.dir/clean
-.PHONY : CMakeFiles/tidy_util__address.cc.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/tidy_libsponge__tcp_receiver.cc.dir
@@ -3216,6 +3198,32 @@ tidy_doctests__address_example_2.cc: CMakeFiles/tidy_doctests__address_example_2
 CMakeFiles/tidy_doctests__address_example_2.cc.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_doctests__address_example_2.cc.dir/build.make CMakeFiles/tidy_doctests__address_example_2.cc.dir/clean
 .PHONY : CMakeFiles/tidy_doctests__address_example_2.cc.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir
+
+# All Build rule for target.
+CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/build.make CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/build.make CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_quiet_doctests__address_example_2.cc"
+.PHONY : CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/rule
+
+# Convenience name for target.
+tidy_quiet_doctests__address_example_2.cc: CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/rule
+.PHONY : tidy_quiet_doctests__address_example_2.cc
+
+# clean rule for target.
+CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/build.make CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/clean
+.PHONY : CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/tidy_quiet_apps__tcp_benchmark.cc.dir
@@ -3478,6 +3486,32 @@ CMakeFiles/tidy_doctests__parser_example.cc.dir/clean:
 .PHONY : CMakeFiles/tidy_doctests__parser_example.cc.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/tidy_apps__network_simulator.cc.dir
+
+# All Build rule for target.
+CMakeFiles/tidy_apps__network_simulator.cc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_apps__network_simulator.cc.dir/build.make CMakeFiles/tidy_apps__network_simulator.cc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_apps__network_simulator.cc.dir/build.make CMakeFiles/tidy_apps__network_simulator.cc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_apps__network_simulator.cc"
+.PHONY : CMakeFiles/tidy_apps__network_simulator.cc.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tidy_apps__network_simulator.cc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_apps__network_simulator.cc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tidy_apps__network_simulator.cc.dir/rule
+
+# Convenience name for target.
+tidy_apps__network_simulator.cc: CMakeFiles/tidy_apps__network_simulator.cc.dir/rule
+.PHONY : tidy_apps__network_simulator.cc
+
+# clean rule for target.
+CMakeFiles/tidy_apps__network_simulator.cc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_apps__network_simulator.cc.dir/build.make CMakeFiles/tidy_apps__network_simulator.cc.dir/clean
+.PHONY : CMakeFiles/tidy_apps__network_simulator.cc.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/tidy_doctests__socket_dt.cc.dir
 
 # All Build rule for target.
@@ -3686,32 +3720,6 @@ CMakeFiles/tidy_quiet_doctests__address_example_3.cc.dir/clean:
 .PHONY : CMakeFiles/tidy_quiet_doctests__address_example_3.cc.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir
-
-# All Build rule for target.
-CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/build.make CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/build.make CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_quiet_tests__wrapping_integers_roundtrip.cc"
-.PHONY : CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/rule
-
-# Convenience name for target.
-tidy_quiet_tests__wrapping_integers_roundtrip.cc: CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/rule
-.PHONY : tidy_quiet_tests__wrapping_integers_roundtrip.cc
-
-# clean rule for target.
-CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/build.make CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/clean
-.PHONY : CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/check_webget.dir
 
 # All Build rule for target.
@@ -3790,6 +3798,58 @@ CMakeFiles/tidy_tests__fsm_connect_relaxed.cc.dir/clean:
 .PHONY : CMakeFiles/tidy_tests__fsm_connect_relaxed.cc.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir
+
+# All Build rule for target.
+CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/build.make CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/build.make CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_quiet_doctests__socket_example_1.cc"
+.PHONY : CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/rule
+
+# Convenience name for target.
+tidy_quiet_doctests__socket_example_1.cc: CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/rule
+.PHONY : tidy_quiet_doctests__socket_example_1.cc
+
+# clean rule for target.
+CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/build.make CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/clean
+.PHONY : CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir
+
+# All Build rule for target.
+CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/build.make CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/build.make CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_quiet_tests__network_interface_test_harness.cc"
+.PHONY : CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/rule
+
+# Convenience name for target.
+tidy_quiet_tests__network_interface_test_harness.cc: CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/rule
+.PHONY : tidy_quiet_tests__network_interface_test_harness.cc
+
+# clean rule for target.
+CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/build.make CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/clean
+.PHONY : CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/tidy_doctests__parser_dt.cc.dir
 
 # All Build rule for target.
@@ -3866,6 +3926,188 @@ tidy_quiet_doctests__parser_dt.cc: CMakeFiles/tidy_quiet_doctests__parser_dt.cc.
 CMakeFiles/tidy_quiet_doctests__parser_dt.cc.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_doctests__parser_dt.cc.dir/build.make CMakeFiles/tidy_quiet_doctests__parser_dt.cc.dir/clean
 .PHONY : CMakeFiles/tidy_quiet_doctests__parser_dt.cc.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tidy_util__address.cc.dir
+
+# All Build rule for target.
+CMakeFiles/tidy_util__address.cc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_util__address.cc.dir/build.make CMakeFiles/tidy_util__address.cc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_util__address.cc.dir/build.make CMakeFiles/tidy_util__address.cc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_util__address.cc"
+.PHONY : CMakeFiles/tidy_util__address.cc.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tidy_util__address.cc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_util__address.cc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tidy_util__address.cc.dir/rule
+
+# Convenience name for target.
+tidy_util__address.cc: CMakeFiles/tidy_util__address.cc.dir/rule
+.PHONY : tidy_util__address.cc
+
+# clean rule for target.
+CMakeFiles/tidy_util__address.cc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_util__address.cc.dir/build.make CMakeFiles/tidy_util__address.cc.dir/clean
+.PHONY : CMakeFiles/tidy_util__address.cc.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir
+
+# All Build rule for target.
+CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/build.make CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/build.make CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_quiet_libsponge__wrapping_integers.cc"
+.PHONY : CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/rule
+
+# Convenience name for target.
+tidy_quiet_libsponge__wrapping_integers.cc: CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/rule
+.PHONY : tidy_quiet_libsponge__wrapping_integers.cc
+
+# clean rule for target.
+CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/build.make CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/clean
+.PHONY : CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir
+
+# All Build rule for target.
+CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/build.make CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/build.make CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_tests__fsm_stream_reassembler_cap.cc"
+.PHONY : CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/rule
+
+# Convenience name for target.
+tidy_tests__fsm_stream_reassembler_cap.cc: CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/rule
+.PHONY : tidy_tests__fsm_stream_reassembler_cap.cc
+
+# clean rule for target.
+CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/build.make CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/clean
+.PHONY : CMakeFiles/tidy_tests__fsm_stream_reassembler_cap.cc.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir
+
+# All Build rule for target.
+CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/build.make CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/build.make CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_quiet_tests__tcp_fsm_test_harness.cc"
+.PHONY : CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/rule
+
+# Convenience name for target.
+tidy_quiet_tests__tcp_fsm_test_harness.cc: CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/rule
+.PHONY : tidy_quiet_tests__tcp_fsm_test_harness.cc
+
+# clean rule for target.
+CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/build.make CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/clean
+.PHONY : CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tidy_apps__tcp_benchmark.cc.dir
+
+# All Build rule for target.
+CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/build.make CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/build.make CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_apps__tcp_benchmark.cc"
+.PHONY : CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/rule
+
+# Convenience name for target.
+tidy_apps__tcp_benchmark.cc: CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/rule
+.PHONY : tidy_apps__tcp_benchmark.cc
+
+# clean rule for target.
+CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/build.make CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/clean
+.PHONY : CMakeFiles/tidy_apps__tcp_benchmark.cc.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir
+
+# All Build rule for target.
+CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/build.make CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/build.make CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_quiet_tests__byte_stream_capacity.cc"
+.PHONY : CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/rule
+
+# Convenience name for target.
+tidy_quiet_tests__byte_stream_capacity.cc: CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/rule
+.PHONY : tidy_quiet_tests__byte_stream_capacity.cc
+
+# clean rule for target.
+CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/build.make CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/clean
+.PHONY : CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir
+
+# All Build rule for target.
+CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/build.make CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/build.make CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_tests__byte_stream_capacity.cc"
+.PHONY : CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/rule
+
+# Convenience name for target.
+tidy_tests__byte_stream_capacity.cc: CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/rule
+.PHONY : tidy_tests__byte_stream_capacity.cc
+
+# clean rule for target.
+CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/build.make CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/clean
+.PHONY : CMakeFiles/tidy_tests__byte_stream_capacity.cc.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/tidy_tests__byte_stream_construction.cc.dir
@@ -4542,6 +4784,32 @@ tidy_quiet_util__tun.cc: CMakeFiles/tidy_quiet_util__tun.cc.dir/rule
 CMakeFiles/tidy_quiet_util__tun.cc.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_util__tun.cc.dir/build.make CMakeFiles/tidy_quiet_util__tun.cc.dir/clean
 .PHONY : CMakeFiles/tidy_quiet_util__tun.cc.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tidy_libsponge__router.cc.dir
+
+# All Build rule for target.
+CMakeFiles/tidy_libsponge__router.cc.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_libsponge__router.cc.dir/build.make CMakeFiles/tidy_libsponge__router.cc.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_libsponge__router.cc.dir/build.make CMakeFiles/tidy_libsponge__router.cc.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_libsponge__router.cc"
+.PHONY : CMakeFiles/tidy_libsponge__router.cc.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tidy_libsponge__router.cc.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_libsponge__router.cc.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/tidy_libsponge__router.cc.dir/rule
+
+# Convenience name for target.
+tidy_libsponge__router.cc: CMakeFiles/tidy_libsponge__router.cc.dir/rule
+.PHONY : tidy_libsponge__router.cc
+
+# clean rule for target.
+CMakeFiles/tidy_libsponge__router.cc.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_libsponge__router.cc.dir/build.make CMakeFiles/tidy_libsponge__router.cc.dir/clean
+.PHONY : CMakeFiles/tidy_libsponge__router.cc.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/tidy_quiet_tests__fsm_listen.cc.dir
@@ -5350,58 +5618,6 @@ CMakeFiles/tidy_quiet_tests__net_interface.cc.dir/clean:
 .PHONY : CMakeFiles/tidy_quiet_tests__net_interface.cc.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir
-
-# All Build rule for target.
-CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/build.make CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/build.make CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_quiet_doctests__socket_example_1.cc"
-.PHONY : CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/rule
-
-# Convenience name for target.
-tidy_quiet_doctests__socket_example_1.cc: CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/rule
-.PHONY : tidy_quiet_doctests__socket_example_1.cc
-
-# clean rule for target.
-CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/build.make CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/clean
-.PHONY : CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir
-
-# All Build rule for target.
-CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/build.make CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/build.make CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_quiet_tests__network_interface_test_harness.cc"
-.PHONY : CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/rule
-
-# Convenience name for target.
-tidy_quiet_tests__network_interface_test_harness.cc: CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/rule
-.PHONY : tidy_quiet_tests__network_interface_test_harness.cc
-
-# clean rule for target.
-CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/build.make CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/clean
-.PHONY : CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/tidy_tests__recv_close.cc.dir
 
 # All Build rule for target.
@@ -5608,32 +5824,6 @@ tidy_quiet_tests__recv_transmit.cc: CMakeFiles/tidy_quiet_tests__recv_transmit.c
 CMakeFiles/tidy_quiet_tests__recv_transmit.cc.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__recv_transmit.cc.dir/build.make CMakeFiles/tidy_quiet_tests__recv_transmit.cc.dir/clean
 .PHONY : CMakeFiles/tidy_quiet_tests__recv_transmit.cc.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir
-
-# All Build rule for target.
-CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/build.make CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/build.make CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_quiet_tests__wrapping_integers_cmp.cc"
-.PHONY : CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/rule
-
-# Convenience name for target.
-tidy_quiet_tests__wrapping_integers_cmp.cc: CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/rule
-.PHONY : tidy_quiet_tests__wrapping_integers_cmp.cc
-
-# clean rule for target.
-CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/build.make CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/clean
-.PHONY : CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/tidy_quiet_tests__fsm_listen_relaxed.cc.dir
@@ -5900,7 +6090,8 @@ CMakeFiles/tidy_tests__send_retx.cc.dir/clean:
 
 # All Build rule for target.
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__wrapping_integers_unwrap.cc.dir/all
-CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/all
+CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/all
+CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_util__util.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_util__eventloop.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_libsponge__tcp_sender.cc.dir/all
@@ -5913,6 +6104,7 @@ CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_util__parser.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__fsm_stream_reassembler_many.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__recv_connect.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tcp_helpers__ipv4_datagram.cc.dir/all
+CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_libsponge__router.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tcp_helpers__fd_adapter.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_libsponge__tcp_receiver.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tcp_helpers__ethernet_frame.cc.dir/all
@@ -5923,28 +6115,27 @@ CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__byte_stream_construction.c
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__fsm_retx_relaxed.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_util__socket.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__fsm_connect.cc.dir/all
+CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tcp_helpers__ethernet_header.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tcp_helpers__tcp_sponge_socket.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_apps__udp_tcpdump.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_doctests__socket_example_2.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_apps__tcp_native.cc.dir/all
+CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_apps__network_simulator.cc.dir/all
+CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/all
+CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_apps__tcp_ipv4.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__fsm_ack_rst.cc.dir/all
-CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__send_equivalence_checker.cc.dir/all
+CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_apps__tcp_ip_ethernet.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_doctests__socket_example_3.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_apps__tun.cc.dir/all
-CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tcp_helpers__tcp_over_ip.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__fsm_winsize.cc.dir/all
-CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_apps__bidirectional_stream_copy.cc.dir/all
-CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tcp_helpers__tcp_segment.cc.dir/all
-CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_libsponge__byte_stream.cc.dir/all
-CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/all
-CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_libsponge__stream_reassembler.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__byte_stream_one_write.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tcp_helpers__tcp_header.cc.dir/all
+CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_doctests__address_example_2.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_apps__tcp_benchmark.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_doctests__socket_dt.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_util__address.cc.dir/all
@@ -5954,8 +6145,12 @@ CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_libsponge__network_interface.cc.d
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_doctests__address_example_1.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__fsm_connect_relaxed.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_doctests__address_example_3.cc.dir/all
-CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__wrapping_integers_roundtrip.cc.dir/all
+CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/all
+CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_doctests__parser_dt.cc.dir/all
+CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_libsponge__wrapping_integers.cc.dir/all
+CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__tcp_fsm_test_harness.cc.dir/all
+CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__byte_stream_capacity.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__fsm_ack_rst_win.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__fsm_stream_reassembler_win.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__byte_stream_many_writes.cc.dir/all
@@ -5981,14 +6176,11 @@ CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__fsm_stream_reassembler_seq
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__fsm_stream_reassembler_single.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__ipv4_parser.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__net_interface.cc.dir/all
-CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_doctests__socket_example_1.cc.dir/all
-CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__network_interface_test_harness.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__recv_reorder.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_util__file_descriptor.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_doctests__parser_example.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__recv_special.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__recv_transmit.cc.dir/all
-CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__wrapping_integers_cmp.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__fsm_listen_relaxed.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_apps__tcp_udp.cc.dir/all
 CMakeFiles/tidy.dir/all: CMakeFiles/tidy_quiet_tests__send_ack.cc.dir/all
@@ -6125,96 +6317,18 @@ CMakeFiles/tidy_tests__tcp_fsm_test_harness.cc.dir/clean:
 .PHONY : CMakeFiles/tidy_tests__tcp_fsm_test_harness.cc.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir
-
-# All Build rule for target.
-CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/build.make CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/build.make CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_tests__wrapping_integers_cmp.cc"
-.PHONY : CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/rule
-
-# Convenience name for target.
-tidy_tests__wrapping_integers_cmp.cc: CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/rule
-.PHONY : tidy_tests__wrapping_integers_cmp.cc
-
-# clean rule for target.
-CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/build.make CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/clean
-.PHONY : CMakeFiles/tidy_tests__wrapping_integers_cmp.cc.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/tidy_libsponge__tcp_sender.cc.dir
-
-# All Build rule for target.
-CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/build.make CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/build.make CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_libsponge__tcp_sender.cc"
-.PHONY : CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/rule
-
-# Convenience name for target.
-tidy_libsponge__tcp_sender.cc: CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/rule
-.PHONY : tidy_libsponge__tcp_sender.cc
-
-# clean rule for target.
-CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/build.make CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/clean
-.PHONY : CMakeFiles/tidy_libsponge__tcp_sender.cc.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir
-
-# All Build rule for target.
-CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/build.make CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/build.make CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num= "Built target tidy_tests__wrapping_integers_roundtrip.cc"
-.PHONY : CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/rule
-
-# Convenience name for target.
-tidy_tests__wrapping_integers_roundtrip.cc: CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/rule
-.PHONY : tidy_tests__wrapping_integers_roundtrip.cc
-
-# clean rule for target.
-CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/build.make CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/clean
-.PHONY : CMakeFiles/tidy_tests__wrapping_integers_roundtrip.cc.dir/clean
-
-#=============================================================================
 # Target rules for target libsponge/CMakeFiles/sponge.dir
 
 # All Build rule for target.
 libsponge/CMakeFiles/sponge.dir/all:
 	$(MAKE) $(MAKESILENT) -f libsponge/CMakeFiles/sponge.dir/build.make libsponge/CMakeFiles/sponge.dir/depend
 	$(MAKE) $(MAKESILENT) -f libsponge/CMakeFiles/sponge.dir/build.make libsponge/CMakeFiles/sponge.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78 "Built target sponge"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79 "Built target sponge"
 .PHONY : libsponge/CMakeFiles/sponge.dir/all
 
 # Build rule for subdir invocation for target.
 libsponge/CMakeFiles/sponge.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libsponge/CMakeFiles/sponge.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : libsponge/CMakeFiles/sponge.dir/rule
@@ -6240,7 +6354,7 @@ apps/CMakeFiles/tun.dir/all: libsponge/CMakeFiles/sponge.dir/all
 
 # Build rule for subdir invocation for target.
 apps/CMakeFiles/tun.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/tun.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : apps/CMakeFiles/tun.dir/rule
@@ -6262,12 +6376,12 @@ apps/CMakeFiles/tcp_ip_ethernet.dir/all: libsponge/CMakeFiles/sponge.dir/all
 apps/CMakeFiles/tcp_ip_ethernet.dir/all: apps/CMakeFiles/stream_copy.dir/all
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/tcp_ip_ethernet.dir/build.make apps/CMakeFiles/tcp_ip_ethernet.dir/depend
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/tcp_ip_ethernet.dir/build.make apps/CMakeFiles/tcp_ip_ethernet.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=85 "Built target tcp_ip_ethernet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=86 "Built target tcp_ip_ethernet"
 .PHONY : apps/CMakeFiles/tcp_ip_ethernet.dir/all
 
 # Build rule for subdir invocation for target.
 apps/CMakeFiles/tcp_ip_ethernet.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/tcp_ip_ethernet.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : apps/CMakeFiles/tcp_ip_ethernet.dir/rule
@@ -6294,7 +6408,7 @@ apps/CMakeFiles/tcp_native.dir/all: apps/CMakeFiles/stream_copy.dir/all
 
 # Build rule for subdir invocation for target.
 apps/CMakeFiles/tcp_native.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/tcp_native.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : apps/CMakeFiles/tcp_native.dir/rule
@@ -6315,12 +6429,12 @@ apps/CMakeFiles/tcp_native.dir/clean:
 apps/CMakeFiles/webget.dir/all: libsponge/CMakeFiles/sponge.dir/all
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/webget.dir/build.make apps/CMakeFiles/webget.dir/depend
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/webget.dir/build.make apps/CMakeFiles/webget.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=94 "Built target webget"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=94,95 "Built target webget"
 .PHONY : apps/CMakeFiles/webget.dir/all
 
 # Build rule for subdir invocation for target.
 apps/CMakeFiles/webget.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/webget.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : apps/CMakeFiles/webget.dir/rule
@@ -6346,7 +6460,7 @@ apps/CMakeFiles/udp_tcpdump.dir/all: libsponge/CMakeFiles/sponge.dir/all
 
 # Build rule for subdir invocation for target.
 apps/CMakeFiles/udp_tcpdump.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/udp_tcpdump.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : apps/CMakeFiles/udp_tcpdump.dir/rule
@@ -6359,6 +6473,32 @@ udp_tcpdump: apps/CMakeFiles/udp_tcpdump.dir/rule
 apps/CMakeFiles/udp_tcpdump.dir/clean:
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/udp_tcpdump.dir/build.make apps/CMakeFiles/udp_tcpdump.dir/clean
 .PHONY : apps/CMakeFiles/udp_tcpdump.dir/clean
+
+#=============================================================================
+# Target rules for target apps/CMakeFiles/network_simulator.dir
+
+# All Build rule for target.
+apps/CMakeFiles/network_simulator.dir/all: libsponge/CMakeFiles/sponge.dir/all
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/network_simulator.dir/build.make apps/CMakeFiles/network_simulator.dir/depend
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/network_simulator.dir/build.make apps/CMakeFiles/network_simulator.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=42 "Built target network_simulator"
+.PHONY : apps/CMakeFiles/network_simulator.dir/all
+
+# Build rule for subdir invocation for target.
+apps/CMakeFiles/network_simulator.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 19
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/network_simulator.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
+.PHONY : apps/CMakeFiles/network_simulator.dir/rule
+
+# Convenience name for target.
+network_simulator: apps/CMakeFiles/network_simulator.dir/rule
+.PHONY : network_simulator
+
+# clean rule for target.
+apps/CMakeFiles/network_simulator.dir/clean:
+	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/network_simulator.dir/build.make apps/CMakeFiles/network_simulator.dir/clean
+.PHONY : apps/CMakeFiles/network_simulator.dir/clean
 
 #=============================================================================
 # Target rules for target apps/CMakeFiles/stream_copy.dir
@@ -6394,7 +6534,7 @@ apps/CMakeFiles/tcp_udp.dir/all: libsponge/CMakeFiles/sponge.dir/all
 apps/CMakeFiles/tcp_udp.dir/all: apps/CMakeFiles/stream_copy.dir/all
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/tcp_udp.dir/build.make apps/CMakeFiles/tcp_udp.dir/depend
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/tcp_udp.dir/build.make apps/CMakeFiles/tcp_udp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=90,91 "Built target tcp_udp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=91 "Built target tcp_udp"
 .PHONY : apps/CMakeFiles/tcp_udp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -6421,7 +6561,7 @@ apps/CMakeFiles/tcp_ipv4.dir/all: libsponge/CMakeFiles/sponge.dir/all
 apps/CMakeFiles/tcp_ipv4.dir/all: apps/CMakeFiles/stream_copy.dir/all
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/tcp_ipv4.dir/build.make apps/CMakeFiles/tcp_ipv4.dir/depend
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/tcp_ipv4.dir/build.make apps/CMakeFiles/tcp_ipv4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=86,87 "Built target tcp_ipv4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=87 "Built target tcp_ipv4"
 .PHONY : apps/CMakeFiles/tcp_ipv4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -6447,12 +6587,12 @@ apps/CMakeFiles/tcp_ipv4.dir/clean:
 apps/CMakeFiles/tcp_benchmark.dir/all: libsponge/CMakeFiles/sponge.dir/all
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/tcp_benchmark.dir/build.make apps/CMakeFiles/tcp_benchmark.dir/depend
 	$(MAKE) $(MAKESILENT) -f apps/CMakeFiles/tcp_benchmark.dir/build.make apps/CMakeFiles/tcp_benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=84 "Built target tcp_benchmark"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=84,85 "Built target tcp_benchmark"
 .PHONY : apps/CMakeFiles/tcp_benchmark.dir/all
 
 # Build rule for subdir invocation for target.
 apps/CMakeFiles/tcp_benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 apps/CMakeFiles/tcp_benchmark.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : apps/CMakeFiles/tcp_benchmark.dir/rule
@@ -6474,12 +6614,12 @@ tests/CMakeFiles/fsm_listen_relaxed.dir/all: libsponge/CMakeFiles/sponge.dir/all
 tests/CMakeFiles/fsm_listen_relaxed.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_listen_relaxed.dir/build.make tests/CMakeFiles/fsm_listen_relaxed.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_listen_relaxed.dir/build.make tests/CMakeFiles/fsm_listen_relaxed.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=20 "Built target fsm_listen_relaxed"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target fsm_listen_relaxed"
 .PHONY : tests/CMakeFiles/fsm_listen_relaxed.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/fsm_listen_relaxed.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_listen_relaxed.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/fsm_listen_relaxed.dir/rule
@@ -6501,12 +6641,12 @@ tests/CMakeFiles/fsm_stream_reassembler_win.dir/all: libsponge/CMakeFiles/sponge
 tests/CMakeFiles/fsm_stream_reassembler_win.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_win.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_win.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_win.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_win.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target fsm_stream_reassembler_win"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=37 "Built target fsm_stream_reassembler_win"
 .PHONY : tests/CMakeFiles/fsm_stream_reassembler_win.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/fsm_stream_reassembler_win.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_stream_reassembler_win.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/fsm_stream_reassembler_win.dir/rule
@@ -6528,12 +6668,12 @@ tests/CMakeFiles/fsm_reorder.dir/all: libsponge/CMakeFiles/sponge.dir/all
 tests/CMakeFiles/fsm_reorder.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_reorder.dir/build.make tests/CMakeFiles/fsm_reorder.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_reorder.dir/build.make tests/CMakeFiles/fsm_reorder.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=25 "Built target fsm_reorder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=24,25 "Built target fsm_reorder"
 .PHONY : tests/CMakeFiles/fsm_reorder.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/fsm_reorder.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_reorder.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/fsm_reorder.dir/rule
@@ -6555,12 +6695,12 @@ tests/CMakeFiles/fsm_passive_close.dir/all: libsponge/CMakeFiles/sponge.dir/all
 tests/CMakeFiles/fsm_passive_close.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_passive_close.dir/build.make tests/CMakeFiles/fsm_passive_close.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_passive_close.dir/build.make tests/CMakeFiles/fsm_passive_close.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target fsm_passive_close"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=23 "Built target fsm_passive_close"
 .PHONY : tests/CMakeFiles/fsm_passive_close.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/fsm_passive_close.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_passive_close.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/fsm_passive_close.dir/rule
@@ -6582,7 +6722,7 @@ tests/CMakeFiles/fsm_stream_reassembler_overlapping.dir/all: libsponge/CMakeFile
 tests/CMakeFiles/fsm_stream_reassembler_overlapping.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_overlapping.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_overlapping.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_overlapping.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_overlapping.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=34 "Built target fsm_stream_reassembler_overlapping"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=33 "Built target fsm_stream_reassembler_overlapping"
 .PHONY : tests/CMakeFiles/fsm_stream_reassembler_overlapping.dir/all
 
 # Build rule for subdir invocation for target.
@@ -6609,12 +6749,12 @@ tests/CMakeFiles/fsm_retx_win.dir/all: libsponge/CMakeFiles/sponge.dir/all
 tests/CMakeFiles/fsm_retx_win.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_retx_win.dir/build.make tests/CMakeFiles/fsm_retx_win.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_retx_win.dir/build.make tests/CMakeFiles/fsm_retx_win.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target fsm_retx_win"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=27 "Built target fsm_retx_win"
 .PHONY : tests/CMakeFiles/fsm_retx_win.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/fsm_retx_win.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_retx_win.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/fsm_retx_win.dir/rule
@@ -6663,12 +6803,12 @@ tests/CMakeFiles/fsm_connect_relaxed.dir/all: libsponge/CMakeFiles/sponge.dir/al
 tests/CMakeFiles/fsm_connect_relaxed.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_connect_relaxed.dir/build.make tests/CMakeFiles/fsm_connect_relaxed.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_connect_relaxed.dir/build.make tests/CMakeFiles/fsm_connect_relaxed.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target fsm_connect_relaxed"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=18 "Built target fsm_connect_relaxed"
 .PHONY : tests/CMakeFiles/fsm_connect_relaxed.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/fsm_connect_relaxed.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_connect_relaxed.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/fsm_connect_relaxed.dir/rule
@@ -6824,12 +6964,12 @@ tests/CMakeFiles/send_transmit.dir/clean:
 tests/CMakeFiles/spongechecks.dir/all:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/spongechecks.dir/build.make tests/CMakeFiles/spongechecks.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/spongechecks.dir/build.make tests/CMakeFiles/spongechecks.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=79,80,81,82 "Built target spongechecks"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=80,81,82 "Built target spongechecks"
 .PHONY : tests/CMakeFiles/spongechecks.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/spongechecks.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/spongechecks.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/spongechecks.dir/rule
@@ -6878,12 +7018,12 @@ tests/CMakeFiles/fsm_ack_rst_relaxed.dir/all: libsponge/CMakeFiles/sponge.dir/al
 tests/CMakeFiles/fsm_ack_rst_relaxed.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_ack_rst_relaxed.dir/build.make tests/CMakeFiles/fsm_ack_rst_relaxed.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_ack_rst_relaxed.dir/build.make tests/CMakeFiles/fsm_ack_rst_relaxed.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=15 "Built target fsm_ack_rst_relaxed"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=14,15 "Built target fsm_ack_rst_relaxed"
 .PHONY : tests/CMakeFiles/fsm_ack_rst_relaxed.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/fsm_ack_rst_relaxed.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_ack_rst_relaxed.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/fsm_ack_rst_relaxed.dir/rule
@@ -6905,12 +7045,12 @@ tests/CMakeFiles/tcp_parser.dir/all: libsponge/CMakeFiles/sponge.dir/all
 tests/CMakeFiles/tcp_parser.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tcp_parser.dir/build.make tests/CMakeFiles/tcp_parser.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tcp_parser.dir/build.make tests/CMakeFiles/tcp_parser.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=89 "Built target tcp_parser"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=89,90 "Built target tcp_parser"
 .PHONY : tests/CMakeFiles/tcp_parser.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/tcp_parser.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/tcp_parser.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/tcp_parser.dir/rule
@@ -6932,12 +7072,12 @@ tests/CMakeFiles/recv_transmit.dir/all: libsponge/CMakeFiles/sponge.dir/all
 tests/CMakeFiles/recv_transmit.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_transmit.dir/build.make tests/CMakeFiles/recv_transmit.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_transmit.dir/build.make tests/CMakeFiles/recv_transmit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=49 "Built target recv_transmit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target recv_transmit"
 .PHONY : tests/CMakeFiles/recv_transmit.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/recv_transmit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/recv_transmit.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/recv_transmit.dir/rule
@@ -6986,12 +7126,12 @@ tests/CMakeFiles/fsm_stream_reassembler_many.dir/all: libsponge/CMakeFiles/spong
 tests/CMakeFiles/fsm_stream_reassembler_many.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_many.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_many.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_many.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_many.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=32,33 "Built target fsm_stream_reassembler_many"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=32 "Built target fsm_stream_reassembler_many"
 .PHONY : tests/CMakeFiles/fsm_stream_reassembler_many.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/fsm_stream_reassembler_many.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_stream_reassembler_many.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/fsm_stream_reassembler_many.dir/rule
@@ -7013,12 +7153,12 @@ tests/CMakeFiles/recv_close.dir/all: libsponge/CMakeFiles/sponge.dir/all
 tests/CMakeFiles/recv_close.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_close.dir/build.make tests/CMakeFiles/recv_close.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_close.dir/build.make tests/CMakeFiles/recv_close.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=44 "Built target recv_close"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=44,45 "Built target recv_close"
 .PHONY : tests/CMakeFiles/recv_close.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/recv_close.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/recv_close.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/recv_close.dir/rule
@@ -7067,12 +7207,12 @@ tests/CMakeFiles/ipv4_parser.dir/all: libsponge/CMakeFiles/sponge.dir/all
 tests/CMakeFiles/ipv4_parser.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ipv4_parser.dir/build.make tests/CMakeFiles/ipv4_parser.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ipv4_parser.dir/build.make tests/CMakeFiles/ipv4_parser.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=40 "Built target ipv4_parser"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target ipv4_parser"
 .PHONY : tests/CMakeFiles/ipv4_parser.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/ipv4_parser.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/ipv4_parser.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/ipv4_parser.dir/rule
@@ -7094,7 +7234,7 @@ tests/CMakeFiles/recv_window.dir/all: libsponge/CMakeFiles/sponge.dir/all
 tests/CMakeFiles/recv_window.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_window.dir/build.make tests/CMakeFiles/recv_window.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_window.dir/build.make tests/CMakeFiles/recv_window.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=50 "Built target recv_window"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=51 "Built target recv_window"
 .PHONY : tests/CMakeFiles/recv_window.dir/all
 
 # Build rule for subdir invocation for target.
@@ -7121,12 +7261,12 @@ tests/CMakeFiles/wrapping_integers_cmp.dir/all: libsponge/CMakeFiles/sponge.dir/
 tests/CMakeFiles/wrapping_integers_cmp.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_cmp.dir/build.make tests/CMakeFiles/wrapping_integers_cmp.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/wrapping_integers_cmp.dir/build.make tests/CMakeFiles/wrapping_integers_cmp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=95,96 "Built target wrapping_integers_cmp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=96 "Built target wrapping_integers_cmp"
 .PHONY : tests/CMakeFiles/wrapping_integers_cmp.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/wrapping_integers_cmp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/wrapping_integers_cmp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/wrapping_integers_cmp.dir/rule
@@ -7148,7 +7288,7 @@ tests/CMakeFiles/fsm_stream_reassembler_cap.dir/all: libsponge/CMakeFiles/sponge
 tests/CMakeFiles/fsm_stream_reassembler_cap.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_cap.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_cap.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_cap.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_cap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=29 "Built target fsm_stream_reassembler_cap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=28 "Built target fsm_stream_reassembler_cap"
 .PHONY : tests/CMakeFiles/fsm_stream_reassembler_cap.dir/all
 
 # Build rule for subdir invocation for target.
@@ -7175,12 +7315,12 @@ tests/CMakeFiles/fsm_stream_reassembler_seq.dir/all: libsponge/CMakeFiles/sponge
 tests/CMakeFiles/fsm_stream_reassembler_seq.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_seq.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_seq.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_seq.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_seq.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=35 "Built target fsm_stream_reassembler_seq"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=34,35 "Built target fsm_stream_reassembler_seq"
 .PHONY : tests/CMakeFiles/fsm_stream_reassembler_seq.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/fsm_stream_reassembler_seq.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_stream_reassembler_seq.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/fsm_stream_reassembler_seq.dir/rule
@@ -7256,7 +7396,7 @@ tests/CMakeFiles/recv_connect.dir/all: libsponge/CMakeFiles/sponge.dir/all
 tests/CMakeFiles/recv_connect.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_connect.dir/build.make tests/CMakeFiles/recv_connect.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_connect.dir/build.make tests/CMakeFiles/recv_connect.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=45 "Built target recv_connect"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=46 "Built target recv_connect"
 .PHONY : tests/CMakeFiles/recv_connect.dir/all
 
 # Build rule for subdir invocation for target.
@@ -7283,12 +7423,12 @@ tests/CMakeFiles/fsm_stream_reassembler_dup.dir/all: libsponge/CMakeFiles/sponge
 tests/CMakeFiles/fsm_stream_reassembler_dup.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_dup.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_dup.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_stream_reassembler_dup.dir/build.make tests/CMakeFiles/fsm_stream_reassembler_dup.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=30 "Built target fsm_stream_reassembler_dup"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target fsm_stream_reassembler_dup"
 .PHONY : tests/CMakeFiles/fsm_stream_reassembler_dup.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/fsm_stream_reassembler_dup.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/fsm_stream_reassembler_dup.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/fsm_stream_reassembler_dup.dir/rule
@@ -7310,12 +7450,12 @@ tests/CMakeFiles/net_interface.dir/all: libsponge/CMakeFiles/sponge.dir/all
 tests/CMakeFiles/net_interface.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/net_interface.dir/build.make tests/CMakeFiles/net_interface.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/net_interface.dir/build.make tests/CMakeFiles/net_interface.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target net_interface"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=41 "Built target net_interface"
 .PHONY : tests/CMakeFiles/net_interface.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/net_interface.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/net_interface.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/net_interface.dir/rule
@@ -7499,12 +7639,12 @@ tests/CMakeFiles/recv_reorder.dir/all: libsponge/CMakeFiles/sponge.dir/all
 tests/CMakeFiles/recv_reorder.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_reorder.dir/build.make tests/CMakeFiles/recv_reorder.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/recv_reorder.dir/build.make tests/CMakeFiles/recv_reorder.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=46,47 "Built target recv_reorder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=47 "Built target recv_reorder"
 .PHONY : tests/CMakeFiles/recv_reorder.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/recv_reorder.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/recv_reorder.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/recv_reorder.dir/rule
@@ -7553,12 +7693,12 @@ tests/CMakeFiles/send_connect.dir/all: libsponge/CMakeFiles/sponge.dir/all
 tests/CMakeFiles/send_connect.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_connect.dir/build.make tests/CMakeFiles/send_connect.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_connect.dir/build.make tests/CMakeFiles/send_connect.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=54 "Built target send_connect"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=54,55 "Built target send_connect"
 .PHONY : tests/CMakeFiles/send_connect.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/send_connect.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/send_connect.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/send_connect.dir/rule
@@ -7580,12 +7720,12 @@ tests/CMakeFiles/send_extra.dir/all: libsponge/CMakeFiles/sponge.dir/all
 tests/CMakeFiles/send_extra.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_extra.dir/build.make tests/CMakeFiles/send_extra.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_extra.dir/build.make tests/CMakeFiles/send_extra.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target send_extra"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=56 "Built target send_extra"
 .PHONY : tests/CMakeFiles/send_extra.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/send_extra.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/send_extra.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/send_extra.dir/rule
@@ -7607,7 +7747,7 @@ tests/CMakeFiles/fsm_winsize.dir/all: libsponge/CMakeFiles/sponge.dir/all
 tests/CMakeFiles/fsm_winsize.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_winsize.dir/build.make tests/CMakeFiles/fsm_winsize.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/fsm_winsize.dir/build.make tests/CMakeFiles/fsm_winsize.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=39 "Built target fsm_winsize"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=38 "Built target fsm_winsize"
 .PHONY : tests/CMakeFiles/fsm_winsize.dir/all
 
 # Build rule for subdir invocation for target.
@@ -7634,12 +7774,12 @@ tests/CMakeFiles/send_ack.dir/all: libsponge/CMakeFiles/sponge.dir/all
 tests/CMakeFiles/send_ack.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_ack.dir/build.make tests/CMakeFiles/send_ack.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_ack.dir/build.make tests/CMakeFiles/send_ack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target send_ack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=52 "Built target send_ack"
 .PHONY : tests/CMakeFiles/send_ack.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/send_ack.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/send_ack.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/send_ack.dir/rule
@@ -7688,12 +7828,12 @@ tests/CMakeFiles/send_window.dir/all: libsponge/CMakeFiles/sponge.dir/all
 tests/CMakeFiles/send_window.dir/all: tests/CMakeFiles/spongechecks.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_window.dir/build.make tests/CMakeFiles/send_window.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/send_window.dir/build.make tests/CMakeFiles/send_window.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=59 "Built target send_window"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target send_window"
 .PHONY : tests/CMakeFiles/send_window.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/send_window.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/send_window.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : tests/CMakeFiles/send_window.dir/rule
@@ -7719,7 +7859,7 @@ doctests/CMakeFiles/address_dt.dir/all: libsponge/CMakeFiles/sponge.dir/all
 
 # Build rule for subdir invocation for target.
 doctests/CMakeFiles/address_dt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 doctests/CMakeFiles/address_dt.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : doctests/CMakeFiles/address_dt.dir/rule
@@ -7745,7 +7885,7 @@ doctests/CMakeFiles/parser_dt.dir/all: libsponge/CMakeFiles/sponge.dir/all
 
 # Build rule for subdir invocation for target.
 doctests/CMakeFiles/parser_dt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 doctests/CMakeFiles/parser_dt.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles 0
 .PHONY : doctests/CMakeFiles/parser_dt.dir/rule
@@ -7766,7 +7906,7 @@ doctests/CMakeFiles/parser_dt.dir/clean:
 doctests/CMakeFiles/socket_dt.dir/all: libsponge/CMakeFiles/sponge.dir/all
 	$(MAKE) $(MAKESILENT) -f doctests/CMakeFiles/socket_dt.dir/build.make doctests/CMakeFiles/socket_dt.dir/depend
 	$(MAKE) $(MAKESILENT) -f doctests/CMakeFiles/socket_dt.dir/build.make doctests/CMakeFiles/socket_dt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=60,61 "Built target socket_dt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zenearx/StudyStuff/cs144/cmake-build-debug/CMakeFiles --progress-num=61 "Built target socket_dt"
 .PHONY : doctests/CMakeFiles/socket_dt.dir/all
 
 # Build rule for subdir invocation for target.

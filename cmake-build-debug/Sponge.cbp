@@ -117,31 +117,31 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="tidy_tests__byte_stream_capacity.cc">
+			<Target title="tidy_quiet_tests__wrapping_integers_roundtrip.cc">
 				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_tests__byte_stream_capacity.cc"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_quiet_tests__wrapping_integers_roundtrip.cc"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="tidy_tests__fsm_stream_reassembler_cap.cc">
+			<Target title="tidy_tests__wrapping_integers_cmp.cc">
 				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_tests__fsm_stream_reassembler_cap.cc"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_tests__wrapping_integers_cmp.cc"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="tidy_quiet_tests__tcp_fsm_test_harness.cc">
+			<Target title="tidy_quiet_tests__wrapping_integers_cmp.cc">
 				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_quiet_tests__tcp_fsm_test_harness.cc"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_quiet_tests__wrapping_integers_cmp.cc"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -267,21 +267,21 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="tidy_apps__bidirectional_stream_copy.cc">
-				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_apps__bidirectional_stream_copy.cc"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="tidy_apps__webget.cc">
 				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_apps__webget.cc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_apps__bidirectional_stream_copy.cc">
+				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_apps__bidirectional_stream_copy.cc"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -387,6 +387,16 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="tidy_quiet_libsponge__router.cc">
+				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_quiet_libsponge__router.cc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="tidy_quiet_tcp_helpers__fd_adapter.cc">
 				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
 				<Option type="4"/>
@@ -467,16 +477,6 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="tidy_tests__byte_stream_test_harness.cc">
-				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_tests__byte_stream_test_harness.cc"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="tidy_quiet_tcp_helpers__arp_message.cc">
 				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
 				<Option type="4"/>
@@ -547,21 +547,21 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="format">
-				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 format"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="tidy_quiet_util__socket.cc">
 				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_quiet_util__socket.cc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="format">
+				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 format"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -582,6 +582,26 @@
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_tests__recv_window.cc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_libsponge__stream_reassembler.cc">
+				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_libsponge__stream_reassembler.cc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_quiet_tests__send_equivalence_checker.cc">
+				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_quiet_tests__send_equivalence_checker.cc"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -667,6 +687,26 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="tidy_tests__byte_stream_test_harness.cc">
+				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_tests__byte_stream_test_harness.cc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_quiet_apps__network_simulator.cc">
+				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_quiet_apps__network_simulator.cc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="tidy_tests__recv_transmit.cc">
 				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
 				<Option type="4"/>
@@ -677,11 +717,41 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="doc">
+			<Target title="tidy_quiet_tcp_helpers__tcp_segment.cc">
 				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 doc"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_quiet_tcp_helpers__tcp_segment.cc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_apps__tcp_ipv4.cc">
+				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_apps__tcp_ipv4.cc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_tests__ipv4_parser.cc">
+				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_tests__ipv4_parser.cc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_quiet_libsponge__byte_stream.cc">
+				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_quiet_libsponge__byte_stream.cc"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -717,21 +787,31 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="tidy_libsponge__stream_reassembler.cc">
+			<Target title="doc">
 				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_libsponge__stream_reassembler.cc"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 doc"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="tidy_quiet_tests__send_equivalence_checker.cc">
+			<Target title="tidy_util__file_descriptor.cc">
 				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_quiet_tests__send_equivalence_checker.cc"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_util__file_descriptor.cc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_quiet_apps__bidirectional_stream_copy.cc">
+				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_quiet_apps__bidirectional_stream_copy.cc"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -792,26 +872,6 @@
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_tests__fsm_stream_reassembler_holes.cc"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="tidy_quiet_tests__byte_stream_capacity.cc">
-				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_quiet_tests__byte_stream_capacity.cc"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="tidy_apps__tcp_benchmark.cc">
-				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_apps__tcp_benchmark.cc"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -887,101 +947,31 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="tidy_tests__wrapping_integers_roundtrip.cc">
+				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_tests__wrapping_integers_roundtrip.cc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_libsponge__tcp_sender.cc">
+				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_libsponge__tcp_sender.cc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="tidy_quiet_tests__fsm_winsize.cc">
 				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_quiet_tests__fsm_winsize.cc"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="tidy_quiet_apps__bidirectional_stream_copy.cc">
-				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_quiet_apps__bidirectional_stream_copy.cc"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="tidy_util__file_descriptor.cc">
-				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_util__file_descriptor.cc"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="tidy_quiet_tcp_helpers__tcp_segment.cc">
-				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_quiet_tcp_helpers__tcp_segment.cc"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="tidy_apps__tcp_ipv4.cc">
-				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_apps__tcp_ipv4.cc"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="tidy_tests__ipv4_parser.cc">
-				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_tests__ipv4_parser.cc"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="tidy_quiet_libsponge__byte_stream.cc">
-				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_quiet_libsponge__byte_stream.cc"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="tidy_quiet_doctests__address_example_2.cc">
-				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_quiet_doctests__address_example_2.cc"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="tidy_quiet_libsponge__wrapping_integers.cc">
-				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_quiet_libsponge__wrapping_integers.cc"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="tidy_util__address.cc">
-				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_util__address.cc"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1062,6 +1052,16 @@
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_doctests__address_example_2.cc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_quiet_doctests__address_example_2.cc">
+				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_quiet_doctests__address_example_2.cc"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1167,6 +1167,16 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="tidy_apps__network_simulator.cc">
+				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_apps__network_simulator.cc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="tidy_doctests__socket_dt.cc">
 				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
 				<Option type="4"/>
@@ -1247,16 +1257,6 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="tidy_quiet_tests__wrapping_integers_roundtrip.cc">
-				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_quiet_tests__wrapping_integers_roundtrip.cc"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="check_webget">
 				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
 				<Option type="4"/>
@@ -1287,6 +1287,26 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="tidy_quiet_doctests__socket_example_1.cc">
+				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_quiet_doctests__socket_example_1.cc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_quiet_tests__network_interface_test_harness.cc">
+				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_quiet_tests__network_interface_test_harness.cc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="tidy_doctests__parser_dt.cc">
 				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
 				<Option type="4"/>
@@ -1312,6 +1332,76 @@
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_quiet_doctests__parser_dt.cc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_util__address.cc">
+				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_util__address.cc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_quiet_libsponge__wrapping_integers.cc">
+				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_quiet_libsponge__wrapping_integers.cc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_tests__fsm_stream_reassembler_cap.cc">
+				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_tests__fsm_stream_reassembler_cap.cc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_quiet_tests__tcp_fsm_test_harness.cc">
+				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_quiet_tests__tcp_fsm_test_harness.cc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_apps__tcp_benchmark.cc">
+				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_apps__tcp_benchmark.cc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_quiet_tests__byte_stream_capacity.cc">
+				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_quiet_tests__byte_stream_capacity.cc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_tests__byte_stream_capacity.cc">
+				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_tests__byte_stream_capacity.cc"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1572,6 +1662,16 @@
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_quiet_util__tun.cc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_libsponge__router.cc">
+				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_libsponge__router.cc"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1887,26 +1987,6 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="tidy_quiet_doctests__socket_example_1.cc">
-				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_quiet_doctests__socket_example_1.cc"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="tidy_quiet_tests__network_interface_test_harness.cc">
-				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_quiet_tests__network_interface_test_harness.cc"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="tidy_tests__recv_close.cc">
 				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
 				<Option type="4"/>
@@ -1982,16 +2062,6 @@
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_quiet_tests__recv_transmit.cc"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="tidy_quiet_tests__wrapping_integers_cmp.cc">
-				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_quiet_tests__wrapping_integers_cmp.cc"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -2142,36 +2212,6 @@
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_tests__tcp_fsm_test_harness.cc"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="tidy_tests__wrapping_integers_cmp.cc">
-				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_tests__wrapping_integers_cmp.cc"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="tidy_libsponge__tcp_sender.cc">
-				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_libsponge__tcp_sender.cc"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="tidy_tests__wrapping_integers_roundtrip.cc">
-				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 tidy_tests__wrapping_integers_roundtrip.cc"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -2472,6 +2512,56 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 udp_tcpdump/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="network_simulator">
+				<Option output="/home/zenearx/StudyStuff/cs144/cmake-build-debug/apps/network_simulator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug/apps"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zenearx/StudyStuff/cs144/libsponge/util"/>
+					<Add directory="/home/zenearx/StudyStuff/cs144/libsponge/tcp_helpers"/>
+					<Add directory="/home/zenearx/StudyStuff/cs144/libsponge"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 network_simulator"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="network_simulator/fast">
+				<Option output="/home/zenearx/StudyStuff/cs144/cmake-build-debug/apps/network_simulator" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zenearx/StudyStuff/cs144/cmake-build-debug/apps"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/zenearx/StudyStuff/cs144/libsponge/util"/>
+					<Add directory="/home/zenearx/StudyStuff/cs144/libsponge/tcp_helpers"/>
+					<Add directory="/home/zenearx/StudyStuff/cs144/libsponge"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 network_simulator/fast"/>
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/zenearx/StudyStuff/cs144/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 clean"/>
@@ -5134,6 +5224,9 @@
 		<Unit filename="/home/zenearx/StudyStuff/cs144/apps/bidirectional_stream_copy.hh">
 			<Option target="stream_copy"/>
 		</Unit>
+		<Unit filename="/home/zenearx/StudyStuff/cs144/apps/network_simulator.cc">
+			<Option target="network_simulator"/>
+		</Unit>
 		<Unit filename="/home/zenearx/StudyStuff/cs144/apps/tcp_benchmark.cc">
 			<Option target="tcp_benchmark"/>
 		</Unit>
@@ -5177,6 +5270,12 @@
 			<Option target="sponge"/>
 		</Unit>
 		<Unit filename="/home/zenearx/StudyStuff/cs144/libsponge/network_interface.hh">
+			<Option target="sponge"/>
+		</Unit>
+		<Unit filename="/home/zenearx/StudyStuff/cs144/libsponge/router.cc">
+			<Option target="sponge"/>
+		</Unit>
+		<Unit filename="/home/zenearx/StudyStuff/cs144/libsponge/router.hh">
 			<Option target="sponge"/>
 		</Unit>
 		<Unit filename="/home/zenearx/StudyStuff/cs144/libsponge/stream_reassembler.cc">
